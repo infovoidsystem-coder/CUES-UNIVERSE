@@ -5,7 +5,11 @@
   "title": "AUSTRAL, la capital natal",
   "synopsis": "Una persecución en el presente da paso a la vida cotidiana de Austral años atrás.",
   "status": "vista-previa",
-  "cover": null,
+  "cover": {
+    "jpeg": "media/imagenes/t1-e1-portada-v1.jpg",
+    "width": 700,
+    "height": 350
+  },
   "pages": [
     {
       "id": "persecucion",
@@ -53,6 +57,32 @@
             {
               "kind": "narration",
               "text": "Años antes"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "departamento",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-departamento-v1.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "CUE mira la torre de OMNIA desde su departamento. Se oye el saludo institucional de la mañana.",
+      "panels": [
+        {
+          "id": "anuncio-omnia",
+          "x": 4,
+          "y": 73,
+          "width": 43,
+          "height": 16,
+          "lines": [
+            {
+              "kind": "narration",
+              "speaker": "Ilse Varga",
+              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía"
             }
           ]
         }
