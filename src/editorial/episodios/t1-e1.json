@@ -75,14 +75,39 @@
         {
           "id": "anuncio-omnia",
           "x": 4,
-          "y": 73,
-          "width": 43,
+          "y": 71,
+          "width": 60,
           "height": 16,
           "lines": [
             {
-              "kind": "narration",
+              "kind": "broadcast",
               "speaker": "Ilse Varga",
               "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "puente",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-puente-v1.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "CUE cierra la puerta de su departamento y cruza un puente peatonal entre los habitantes de Austral.",
+      "panels": [
+        {
+          "id": "puerta",
+          "x": 12,
+          "y": 21,
+          "width": 22,
+          "height": 7,
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡CLAC!"
             }
           ]
         }

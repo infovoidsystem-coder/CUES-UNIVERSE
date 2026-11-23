@@ -33,7 +33,7 @@ for (const episode of episodes) {
     for (const panel of page.panels) {
       check([panel.x,panel.y,panel.width,panel.height].every(n => Number.isFinite(n) && n >= 0 && n <= 100), id + ': posición de viñeta inválida')
       check(panel.width > 0 && panel.height > 0 && panel.x + panel.width <= 100 && panel.y + panel.height <= 100, id + ': viñeta fuera de página')
-      check(panel.lines.every(line => ['dialogue','narration'].includes(line.kind) && line.text?.trim()), id + ': diálogo inválido')
+      check(panel.lines.every(line => ['dialogue','broadcast','narration','sfx','impact'].includes(line.kind) && line.text?.trim()), id + ': diálogo inválido')
     }
     for (const cue of page.audio) check(['voice','music','sfx'].includes(cue.kind) && Number.isFinite(cue.startMs) && cue.startMs >= 0 && media(cue.file), id + ': audio inválido')
   }
