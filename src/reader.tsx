@@ -42,7 +42,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     for (const next of episode.pages.slice(index + 1, index + 3)) {
       if (!next.image) continue
       const image = new Image()
-      image.src = media(next.image.webp)
+      image.src = media(next.image.webp ?? next.image.jpeg!)
     }
   }, [episode, index, page.id, update])
 
@@ -88,7 +88,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
         <button disabled={zoom >= 2} onClick={() => setZoom(value => Math.min(2, value + .25))} aria-label="Acercar">+</button>
         {document.fullscreenEnabled && <button onClick={fullScreen}>Pantalla completa</button>}
       </div>
-      {episode.status === 'vista-previa' && <small>Vista previa · Paginación provisional</small>}
+      {episode.status === 'vista-previa' && <small>Vista previa · Arte y paginación provisionales</small>}
       {notice && <small role="status">{notice}</small>}
     </header>
     <div className={'stream ' + (vertical ? 'vertical' : 'horizontal')} ref={stream}

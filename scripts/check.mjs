@@ -6,7 +6,7 @@ const root = resolve('public')
 const media = path => typeof path === 'string' && resolve(root, path).startsWith(root + sep) && existsSync(resolve(root, path))
 const art = (item, label) => {
   if (item === null) return
-  check(media(item?.webp) && item.webp.endsWith('.webp'), label + ': WebP inválido')
+  check(item && (item.webp ? media(item.webp) && item.webp.endsWith('.webp') : media(item.jpeg) && item.jpeg.endsWith('.jpg')), label + ': imagen inválida')
   check(!item.avif || (media(item.avif) && item.avif.endsWith('.avif')), label + ': AVIF inválido')
   check(Number.isInteger(item.width) && item.width > 0 && Number.isInteger(item.height) && item.height > 0, label + ': dimensiones inválidas')
 }

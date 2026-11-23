@@ -9,18 +9,54 @@
   "pages": [
     {
       "id": "persecucion",
-      "image": null,
-      "alt": "Ilustración pendiente para la persecución inicial",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
       "notes": "Presente. CUE es perseguido por OMNIA.",
-      "panels": [],
+      "panels": [
+        {
+          "id": "tiempo",
+          "x": 4,
+          "y": 4,
+          "width": 30,
+          "height": 8,
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Presente"
+            }
+          ]
+        }
+      ],
       "audio": []
     },
     {
       "id": "pasado",
-      "image": null,
-      "alt": "Ilustración pendiente para el regreso al pasado",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-pasado-v1.jpg",
+        "width": 1024,
+        "height": 699
+      },
+      "alt": "La torre domina la ciudad a plena luz. Los habitantes de ojos blancos caminan por las calles de Austral.",
       "notes": "Años antes. La historia presenta Austral y la vida cotidiana de sus habitantes.",
-      "panels": [],
+      "panels": [
+        {
+          "id": "tiempo",
+          "x": 4,
+          "y": 4,
+          "width": 30,
+          "height": 8,
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Años antes"
+            }
+          ]
+        }
+      ],
       "audio": []
     }
   ]
