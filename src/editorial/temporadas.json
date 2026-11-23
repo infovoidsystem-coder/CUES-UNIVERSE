@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "element": "Tierra"
+  },
+  {
+    "id": 2,
+    "element": "Fuego"
+  },
+  {
+    "id": 3,
+    "element": "Agua"
+  },
+  {
+    "id": 4,
+    "element": "Aire"
+  }
+]

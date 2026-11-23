@@ -1,0 +1,27 @@
+{
+  "id": "t1-e1",
+  "season": 1,
+  "number": 1,
+  "title": "AUSTRAL, la capital natal",
+  "synopsis": "Una persecución en el presente da paso a la vida cotidiana de Austral años atrás.",
+  "status": "vista-previa",
+  "cover": null,
+  "pages": [
+    {
+      "id": "persecucion",
+      "image": null,
+      "alt": "Ilustración pendiente para la persecución inicial",
+      "notes": "Presente. CUE es perseguido por OMNIA.",
+      "panels": [],
+      "audio": []
+    },
+    {
+      "id": "pasado",
+      "image": null,
+      "alt": "Ilustración pendiente para el regreso al pasado",
+      "notes": "Años antes. La historia presenta Austral y la vida cotidiana de sus habitantes.",
+      "panels": [],
+      "audio": []
+    }
+  ]
+}

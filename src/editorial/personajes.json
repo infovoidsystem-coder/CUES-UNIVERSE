@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cue",
+    "name": "CUE",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "DJ y productor de Austral.",
+        "requires": []
+      }
+    ]
+  },
+  {
+    "id": "eco",
+    "name": "ECO",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "Mentor de CUE.",
+        "requires": [
+          "t1-e2"
+        ]
+      },
+      {
+        "text": "Canaliza energía ámbar con cables terminados en plug jack.",
+        "requires": [
+          "t1-e2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "play",
+    "name": "PLAY",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "Músico y amigo de CUE.",
+        "requires": [
+          "t1-e3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fader",
+    "name": "FADER",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "Jefe sonidista de CUE.",
+        "requires": [
+          "t1-e3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scratch",
+    "name": "SCRATCH",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "Su técnica musical gira en torno al scratching y los vinilos.",
+        "requires": [
+          "t1-e3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pads",
+    "name": "PADS",
+    "portrait": null,
+    "entries": [
+      {
+        "text": "DJ que trabaja con pads y samplers.",
+        "requires": [
+          "t1-e4"
+        ]
+      },
+      {
+        "text": "Domina tierra y aire.",
+        "requires": [
+          "t1-e4"
+        ]
+      }
+    ]
+  }
+]
