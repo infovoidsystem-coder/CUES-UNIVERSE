@@ -10,5 +10,5 @@ const modules = import.meta.glob<Episode>('./editorial/episodios/*.json', {eager
 export const episodes = Object.values(modules).sort((a,b) => a.season - b.season || a.number - b.number)
 export const available = (episode: Episode) => episode.status !== 'en-producción' && episode.pages.length > 0
 export const media = (path: string) => import.meta.env.BASE_URL + path
-export const characters: {id: string; name: string; portrait: Art | null; entries: {text: string; requires: string[]}[]} = characterData
+export const characters: {id: string; name: string; portrait: Art | null; entries: {text: string; requires: string[]}[]}[] = characterData
 export {seasons, universe}
