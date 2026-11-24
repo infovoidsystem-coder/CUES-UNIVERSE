@@ -129,7 +129,7 @@
     },
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/escena-1-5.jpg","width":613,"height":621},
+      "image": {"jpeg":"media/imagenes/t1-e1-p5-secuencia.jpg","width":1024,"height":1536},
       "alt": "El cruce",
       "panels": [
         {
@@ -169,7 +169,7 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/escena-1-6.jpg","width":613,"height":431},
+      "image": {"jpeg":"media/imagenes/t1-e1-p6-secuencia.jpg","width":1024,"height":1536},
       "alt": "Frecuencia de fondo",
       "panels": [
         {
@@ -209,7 +209,7 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/escena-1-7.jpg","width":613,"height":621},
+      "image": {"jpeg":"media/imagenes/t1-e1-p7-secuencia.jpg","width":1024,"height":1536},
       "alt": "Una ciudad en horario",
       "panels": [
         {
@@ -249,7 +249,7 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/escena-1-8.jpg","width":613,"height":621},
+      "image": {"jpeg":"media/imagenes/t1-e1-p8-secuencia.jpg","width":1024,"height":1536},
       "alt": "El último compás",
       "panels": [
         {

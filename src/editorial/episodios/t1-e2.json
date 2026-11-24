@@ -9,7 +9,7 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/escena-2-1.jpg","width":272,"height":502},
+      "image": {"jpeg":"media/imagenes/t1-e2-p1-secuencia.jpg","width":1024,"height":1536},
       "alt": "Dos pulsos",
       "panels": [
         {
