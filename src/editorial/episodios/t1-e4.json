@@ -293,7 +293,7 @@
     },
     {
       "id": "guion-7",
-      "image": {"jpeg":"media/imagenes/t1-e4-p7-secuencia.jpg","width":1024,"height":1536},
+      "image": {"jpeg":"media/imagenes/t1-e4-p7-cross-fader.jpg","width":1024,"height":1536},
       "alt": "CROSS FADER",
       "panels": [
         {
@@ -302,7 +302,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "En el laboratorio de OMNIA, Ilse inicia la transformación de FADER. Una máscara blanca con una raya roja central se integra a su rostro.",
+          "description": "En el laboratorio de OMNIA, Ilse inicia la transformación de FADER. Una máscara blanca, agrietada y con la boca marcada por costuras negras, se integra a su rostro.",
           "lines": []
         },
         {
@@ -311,7 +311,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "El prototipo emerge con una armadura tosca. Da su primer paso entre restos del equipo experimental.",
+          "description": "El prototipo emerge con el abrigo negro desgarrado. Entre las correas del pecho se enciende un módulo rojo. Da su primer paso entre restos del equipo experimental.",
           "lines": [
             {
               "kind": "sfx",
