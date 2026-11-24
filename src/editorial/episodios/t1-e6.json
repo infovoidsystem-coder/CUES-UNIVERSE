@@ -48,7 +48,7 @@
     },
     {
       "id": "guion-1",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-2.jpg","width":502,"height":502},
       "alt": "El mismo comienzo",
       "panels": [
         {
@@ -80,7 +80,7 @@
     },
     {
       "id": "guion-2",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-3.jpg","width":502,"height":502},
       "alt": "La salida",
       "panels": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "id": "guion-3",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-4.jpg","width":502,"height":502},
       "alt": "Otro objetivo",
       "panels": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "id": "guion-4",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-5.jpg","width":502,"height":502},
       "alt": "El recuerdo",
       "panels": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "id": "guion-5",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-6.jpg","width":502,"height":502},
       "alt": "Nombre",
       "panels": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "id": "guion-6",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-6-7.jpg","width":502,"height":502},
       "alt": "Corte",
       "panels": [
         {

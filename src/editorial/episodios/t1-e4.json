@@ -9,7 +9,7 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-1.jpg","width":502,"height":502},
       "alt": "Los discos",
       "panels": [
         {
@@ -55,7 +55,7 @@
     },
     {
       "id": "guion-2",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-2.jpg","width":502,"height":502},
       "alt": "PADS interviene",
       "panels": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "id": "guion-3",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-3.jpg","width":502,"height":502},
       "alt": "Una noche conectado",
       "panels": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "id": "guion-4",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-4.jpg","width":502,"height":502},
       "alt": "Lo que ECO cuenta",
       "panels": [
         {
@@ -194,7 +194,7 @@
     },
     {
       "id": "guion-5",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-5.jpg","width":502,"height":502},
       "alt": "La visita",
       "panels": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "id": "guion-6",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-6.jpg","width":502,"height":502},
       "alt": "La esfera",
       "panels": [
         {
@@ -293,7 +293,7 @@
     },
     {
       "id": "guion-7",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-4-7.jpg","width":502,"height":502},
       "alt": "CROSS FADER",
       "panels": [
         {

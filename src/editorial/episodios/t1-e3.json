@@ -9,7 +9,7 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-3-1.jpg","width":502,"height":502},
       "alt": "La caída",
       "panels": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "id": "guion-2",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-3-2.jpg","width":502,"height":502},
       "alt": "La prueba de sonido",
       "panels": [
         {
@@ -114,7 +114,7 @@
     },
     {
       "id": "guion-3",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-3-3.jpg","width":502,"height":502},
       "alt": "El compás de PLAY",
       "panels": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "id": "guion-4",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-3-4.jpg","width":502,"height":502},
       "alt": "Fuera del trabajo",
       "panels": [
         {
@@ -210,7 +210,7 @@
     },
     {
       "id": "guion-5",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-3-5.jpg","width":502,"height":502},
       "alt": "Los vinilos",
       "panels": [
         {

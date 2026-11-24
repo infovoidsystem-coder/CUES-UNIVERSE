@@ -9,7 +9,7 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-5-1.jpg","width":502,"height":502},
       "alt": "Del otro lado",
       "panels": [
         {
@@ -49,7 +49,7 @@
     },
     {
       "id": "guion-2",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-5-2.jpg","width":502,"height":502},
       "alt": "Fuera de tiempo",
       "panels": [
         {
@@ -94,7 +94,7 @@
     },
     {
       "id": "guion-3",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-5-3.jpg","width":502,"height":502},
       "alt": "Ámbar y turquesa",
       "panels": [
         {
@@ -134,7 +134,7 @@
     },
     {
       "id": "guion-4",
-      "image": null,
+      "image": {"jpeg":"media/imagenes/escena-5-4.jpg","width":502,"height":502},
       "alt": "Después del golpe",
       "panels": [
         {
