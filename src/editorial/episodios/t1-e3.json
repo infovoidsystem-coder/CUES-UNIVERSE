@@ -2,9 +2,257 @@
   "id": "t1-e3",
   "season": 1,
   "number": 3,
-  "title": "Frecuencias y vida cotidiana",
-  "synopsis": "CUE se mueve entre el sonido, su trabajo con FADER y su amistad con PLAY.",
-  "status": "en-producción",
+  "title": "Las 3 fases",
+  "synopsis": "Mientras CUE entrena con ECO, su trabajo con FADER y su amistad con PLAY revelan dos maneras de vivir la música.",
+  "status": "vista-previa",
   "cover": null,
-  "pages": []
+  "pages": [
+    {
+      "id": "guion-1",
+      "image": null,
+      "alt": "La caída",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "La vibración ámbar alcanza a CUE. Frente a él, varias placas se levantan a distinta altura.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Fase 3."
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE tropieza y cae de costado. Las placas más altas se desploman primero.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡TUM!"
+            },
+            {
+              "kind": "narration",
+              "text": "Fase 2."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO recoge sus cables y el último fragmento vuelve al piso.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Fase 1."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Por hoy alcanza."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-2",
+      "image": null,
+      "alt": "La prueba de sonido",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE desenrolla un cable en el lugar de trabajo de FADER. Su jefe escucha una prueba frente a la consola.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE señala un canal con ruido. FADER baja el nivel y le devuelve el cable.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "FADER",
+              "text": "Revisá el otro extremo. Tenemos que abrir."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE se agacha detrás del equipo y encuentra un conector flojo.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡CLAC!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-3",
+      "image": null,
+      "alt": "El compás de PLAY",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Al terminar la prueba, PLAY espera con su guitarra al hombro. Lleva los auriculares negros y rojos al cuello.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE golpea dos veces el borde de una caja. PLAY le responde sobre las cuerdas.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TAC-TAC"
+            },
+            {
+              "kind": "sfx",
+              "text": "TRRÁN"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Los dos repiten juntos. Esta vez PLAY deja un silencio antes del último golpe.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "Ahí. Ese hueco me gusta."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-4",
+      "image": null,
+      "alt": "Fuera del trabajo",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY apoya la guitarra y abre en su mesa la carcasa de un dispositivo experimental.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE alcanza una herramienta sin que se la pidan.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "¿Todavía te acordás cuál uso?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "La otra la rompiste."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY se ríe. El sonido queda suspendido un instante mientras CUE mira sus manos.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-5",
+      "image": null,
+      "alt": "Los vinilos",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE está con ECO cuando SCRATCH aparece acompañado por PADS. Al ver a ECO, SCRATCH se para en seco.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PADS le habla de costado. SCRATCH levanta dos vinilos.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PADS",
+              "text": "Esperá."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Los discos giran en el aire. Un borde de fuego cruza la cara de ECO justo antes del corte.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡FSSSH!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    }
+  ]
 }

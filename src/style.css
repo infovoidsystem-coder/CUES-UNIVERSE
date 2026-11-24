@@ -75,3 +75,14 @@ button:disabled{opacity:.45;cursor:default}
 .panel .narration{background:#000;color:#fff;border:1px solid #fff;padding:.45em .65em;border-radius:0}
 @media(max-width:650px){.top{display:grid;gap:.18rem;padding:.55rem 1rem}.seasons{grid-template-columns:repeat(2,minmax(0,1fr))}.reader{height:calc(100dvh - 5.2rem)}.reader-bar,.reader-footer{padding-inline:.55rem}.controls button,.reader-footer button{font-size:.82rem}}
 @media(prefers-reduced-motion:no-preference){a,button{transition:color .15s,border-color .15s,background-color .15s}.horizontal .page-holder{animation:arrive .18s ease-out}@keyframes arrive{from{opacity:.65}to{opacity:1}}}
+
+.script-page{width:min(100%,44rem);background:#10181d;border:1px solid #29383e}
+.script-heading{padding:1rem clamp(.85rem,4vw,2rem);border-bottom:1px solid #29383e}
+.script-heading h2{margin:.2rem 0}
+.script-page .panel{display:grid;gap:.55rem;padding:1rem clamp(.85rem,4vw,2rem);border-bottom:1px solid #29383e}
+.script-page .panel:last-child{border-bottom:0}
+.script-description{display:flex;gap:.7rem;align-items:baseline}
+.script-description span{color:#69eadc;font-size:.75rem}
+.script-page .script-description p{background:none;color:#d6e0df;padding:0;margin:0;font-size:1rem;line-height:1.5}
+.script-page .panel :is(.dialogue,.broadcast,.narration){font-size:.95rem;max-width:100%}
+.script-page .panel :is(.sfx,.impact){margin:.3em .15em}

@@ -2,9 +2,288 @@
   "id": "t1-e6",
   "season": 1,
   "number": 6,
-  "title": null,
-  "synopsis": null,
-  "status": "en-producción",
+  "title": "NO SIGNAL",
+  "synopsis": "La historia vuelve a la persecución inicial. Cuando CUE escapa, Ilse pone en marcha otro plan.",
+  "status": "vista-previa",
   "cover": null,
-  "pages": []
+  "pages": [
+    {
+      "id": "persecucion",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
+      "notes": "Presente. CUE es perseguido por OMNIA.",
+      "panels": [
+        {
+          "id": "tiempo",
+          "x": 4,
+          "y": 4,
+          "width": 30,
+          "height": 8,
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Presente"
+            }
+          ]
+        },
+        {
+          "id": "charco",
+          "x": 12,
+          "y": 84,
+          "width": 32,
+          "height": 10,
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡CHAF!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-1",
+      "image": null,
+      "alt": "El mismo comienzo",
+      "panels": [
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Volvemos al punto en que la persecución quedó interrumpida. Esta vez vemos que Ilse la observa desde un monitor.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Junto a la imagen de CUE aparece registrada su energía terrestre en el combate contra CROSS FADER.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "Ilse Varga",
+              "text": "Es él, tráiganmelo."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-2",
+      "image": null,
+      "alt": "La salida",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE planta los pies en un cruce mojado, encuentra el pulso y forma por sí solo la esfera turquesa.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "La esfera levanta una placa entre CUE y los agentes. El agua salta alrededor de sus botas.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡KRAK!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Los agentes rodean la placa y pierden a CUE de vista bajo la lluvia.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-3",
+      "image": null,
+      "alt": "Otro objetivo",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Un agente informa la pérdida de contacto. Ilse mira la imagen congelada un momento.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "Ilse Varga",
+              "text": "No importa, se me ocurrió algo mejor."
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY queda rodeado. Sus auriculares negros y rojos siguen colgados del cuello.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En el laboratorio, Ilse se acerca a PLAY.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "Ilse Varga",
+              "text": "Ustedes son amigos con CUE, ¿no?"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-4",
+      "image": null,
+      "alt": "El recuerdo",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ilse le dice a PLAY que quería mejorarle la vida a CUE, pero que él tomó otro camino.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "¿Qué significa eso?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ilse Varga",
+              "text": "Déjame mostrarte."
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Fragmentos de la guitarra, la caja y el compás que compartieron aparecen en viñetas quebradas. En el recuerdo alterado, PLAY queda solo con la guitarra.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY mira sus manos. Cierra los puños.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "Voy a terminar con eso."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-5",
+      "image": null,
+      "alt": "Nombre",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY permanece inmóvil detrás de un visor oscuro. Los auriculares siguen en su cuello.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Un monitor a su espalda muestra NO SIGNAL. Ilse se refleja en el vidrio al decir el nombre.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "Ilse Varga",
+              "text": "Serás… NO SIGNAL."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Él se coloca lentamente los auriculares. Una frecuencia roja cruza el visor durante un instante.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡VZZZT!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-6",
+      "image": null,
+      "alt": "Corte",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Negro. El último destello ha desaparecido.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Fin de la primera temporada."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    }
+  ]
 }

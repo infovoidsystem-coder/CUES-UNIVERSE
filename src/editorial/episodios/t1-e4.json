@@ -2,9 +2,339 @@
   "id": "t1-e4",
   "season": 1,
   "number": 4,
-  "title": null,
-  "synopsis": null,
-  "status": "en-producción",
+  "title": "Aquella noche",
+  "synopsis": "SCRATCH hiere a ECO. Mientras se recupera, ECO comparte parte de su pasado y le enseña a CUE a formar una esfera terrestre.",
+  "status": "vista-previa",
   "cover": null,
-  "pages": []
+  "pages": [
+    {
+      "id": "guion-1",
+      "image": null,
+      "alt": "Los discos",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "SCRATCH lanza los dos vinilos. Los cables de ECO atraviesan sus agujeros centrales y frenan el giro.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Los vinilos crecen. Sus bordes cortan los cables y barren las piernas de ECO.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡CRAC!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO cae. SCRATCH lo alcanza con una descarga de fuego.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¡DETENTE! ¡LO VAS A MATAR!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-2",
+      "image": null,
+      "alt": "PADS interviene",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PADS se interpone entre SCRATCH y ECO. CUE se arrodilla junto a su mentor.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PADS",
+              "text": "¡Basta, SCRATCH!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "SCRATCH recoge los vinilos. PADS mira a ECO una última vez antes de irse con él.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE ayuda a ECO a incorporarse. Uno de los conectores dañados golpea el piso.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "CLIN"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-3",
+      "image": null,
+      "alt": "Una noche conectado",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En el departamento de PLAY, CUE sostiene a ECO mientras PLAY conecta su dispositivo experimental.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY comprueba el pulso de regeneración y abre la carcasa de un brazo mecánico.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "Sostenelo ahí. Voy a revisar los dos brazos."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Al amanecer, ECO abre los ojos y mira un instante a PLAY antes de comprobar los cables reparados.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-4",
+      "image": null,
+      "alt": "Lo que ECO cuenta",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En la base de ECO, CUE pregunta por el ataque.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¿Por qué estaba tan seguro de que lo traicionaste?"
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO apoya los brazos reparados sobre la mesa.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Quise protegerlos. Tomé una decisión sin consultar y cargué con las consecuencias."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE espera el resto. Antes de que ECO vuelva a hablar, alguien golpea la puerta.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TOC, TOC"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-5",
+      "image": null,
+      "alt": "La visita",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PADS entra sola. Ve los brazos reparados y baja las manos.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PADS",
+              "text": "Vine a disculparme por lo que hizo SCRATCH."
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE se corre para dejarla pasar. PADS toca dos pads en su controlador mientras hablan de música.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PADS",
+              "text": "Antes ensayaba con una amiga. Hace mucho que no tocamos juntas."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PADS guarda el controlador. ECO observa sus manos cuando ella menciona a SCRATCH.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "PADS",
+              "text": "Algún día vas a necesitar lo que él sabe del fuego."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-6",
+      "image": null,
+      "alt": "La esfera",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO planta los pies. Una esfera ámbar recoge polvo y piedritas del suelo.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE repite el gesto. La esfera turquesa aparece irregular y cae al piso antes de estabilizarse.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡PFF!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO devuelve las piedras al centro con el pie.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Otra vez. Sentí el piso antes de levantarlo."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-7",
+      "image": null,
+      "alt": "CROSS FADER",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En el laboratorio de OMNIA, Ilse inicia la transformación de FADER. Una máscara blanca con una raya roja central se integra a su rostro.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "El prototipo emerge con una armadura tosca. Da su primer paso entre restos del equipo experimental.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡CLONK!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Más tarde, CROSS FADER irrumpe frente a ECO y CUE. ECO lanza sus cables cuando el prototipo levanta un brazo.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡KRAK!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    }
+  ]
 }

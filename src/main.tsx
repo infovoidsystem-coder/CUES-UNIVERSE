@@ -18,7 +18,7 @@ function EpisodeCard({episode}: {episode: Episode}) {
       <small>Episodio {episode.number} · {episode.status.replaceAll('-', ' ')}</small>
       <h3>{episodeName(episode)}</h3>
       {episode.synopsis && <p>{episode.synopsis}</p>}
-      {available(episode) && <Link to={readerLink(episode.id)}>{episode.status === 'vista-previa' ? 'Ver vista previa' : 'Leer episodio'} →</Link>}
+      {available(episode) && <Link to={readerLink(episode.id)}>Leer episodio →</Link>}
     </div>
   </article>
 }
@@ -37,7 +37,7 @@ function Home({last}: {last?: string}) {
         <h1>AUSTRAL<span>.</span></h1>
         <p>En una ciudad donde OMNIA controla la memoria y la percepción, CUE descubre en la música una forma de recuperar su autonomía.</p>
         <div className="actions">
-          {last || preview ? <Link className="primary" to={readerLink(last ?? preview!.id)}>{last ? 'Continuar leyendo' : released ? 'Empezar a leer' : 'Abrir vista previa'} →</Link> : null}
+          {last || preview ? <Link className="primary" to={readerLink(last ?? preview!.id)}>{last ? 'Continuar leyendo' : released ? 'Empezar a leer' : 'Leer temporada 1'} →</Link> : null}
           <Link className="outline" to="/biblioteca">Explorar biblioteca</Link>
         </div>
       </div>

@@ -15,9 +15,10 @@ export function Reader(props: Props) {
 }
 function ReadingPage({page, eager}: {page: Page; eager: boolean}) {
   const overlay = Boolean(page.image)
-  return <figure className="page">
-    {page.image ? <Artwork art={page.image} alt={page.alt} eager={eager}/> : <div className="page-placeholder"><small>Ilustración oficial pendiente</small><p>{page.notes ?? page.alt}</p></div>}
-    {page.panels.map(panel => <div key={panel.id} className={overlay ? 'panel overlay' : 'panel'} style={overlay ? {left: panel.x + '%', top: panel.y + '%', width: panel.width + '%', minHeight: panel.height + '%'} : undefined}>
+  return <figure className={overlay ? "page" : "page script-page"}>
+    {page.image ? <Artwork art={page.image} alt={page.alt} eager={eager}/> : <figcaption className="script-heading"><small>Guion de manga</small><h2>{page.alt}</h2>{page.notes && <p>{page.notes}</p>}</figcaption>}
+    {page.panels.map((panel, panelIndex) => <div key={panel.id} className={overlay ? 'panel overlay' : 'panel'} style={overlay ? {left: panel.x + '%', top: panel.y + '%', width: panel.width + '%', minHeight: panel.height + '%'} : undefined}>
+      {!overlay && panel.description && <div className="script-description"><span aria-hidden="true">{panelIndex + 1}</span><p>{panel.description}</p></div>}
       {panel.lines.map((line,i) => <p key={i} className={line.kind}>{line.speaker && <strong>{line.speaker} · </strong>}{line.text}</p>)}
     </div>)}
   </figure>
@@ -34,6 +35,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
   const vertical = progress.mode === 'vertical'
   const last = episode.pages.length - 1
   const page = episode.pages[index]
+  const nextEpisode = episodes.find(item => item.season === episode.season && item.number === episode.number + 1 && available(item))
   useEffect(() => {
     update(previous => {
       if (previous.last?.episode === episode.id && previous.last.page === page.id) return previous
@@ -62,6 +64,9 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     root.addEventListener('scroll', observePage, {passive: true})
     return () => root.removeEventListener('scroll', observePage)
   }, [vertical, episode])
+  useEffect(() => {
+    if (!vertical) stream.current?.scrollTo(0, 0)
+  }, [index, vertical])
   function move(offset: number) {
     const next = Math.min(last, Math.max(0, currentIndex.current + offset))
     if (vertical && stream.current) {
@@ -88,7 +93,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
         <button disabled={zoom >= 2} onClick={() => setZoom(value => Math.min(2, value + .25))} aria-label="Acercar">+</button>
         {document.fullscreenEnabled && <button onClick={fullScreen}>Pantalla completa</button>}
       </div>
-      {episode.status === 'vista-previa' && <small>Vista previa · Arte y paginación provisionales</small>}
+      {episode.status === 'vista-previa' && <small>Edición en desarrollo · Páginas ilustradas y guion de manga</small>}
       {notice && <small role="status">{notice}</small>}
     </header>
     <div className={'stream ' + (vertical ? 'vertical' : 'horizontal')} ref={stream}
@@ -106,7 +111,9 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     <footer className="reader-footer">
       <button disabled={!index} onClick={() => move(-1)}>← Anterior</button>
       <span aria-live="polite">{index + 1} / {episode.pages.length}</span>
-      <button disabled={index === last} onClick={() => move(1)}>Siguiente →</button>
+      {index === last && nextEpisode
+        ? <Link className="outline" to={'/leer/' + nextEpisode.id}>Episodio {nextEpisode.number} →</Link>
+        : <button disabled={index === last} onClick={() => move(1)}>Siguiente →</button>}
       {index === last && episode.status === 'publicado' && <button disabled={progress.completed.includes(episode.id)} onClick={() => update(old => ({...old, completed: [...old.completed, episode.id]}))}>{progress.completed.includes(episode.id) ? 'Completado' : 'Marcar como leído'}</button>}
     </footer>
   </section>

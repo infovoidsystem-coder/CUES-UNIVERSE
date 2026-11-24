@@ -2,9 +2,175 @@
   "id": "t1-e5",
   "season": 1,
   "number": 5,
-  "title": null,
-  "synopsis": null,
-  "status": "en-producción",
+  "title": "Dos esferas",
+  "synopsis": "ECO y CUE pelean juntos contra CROSS FADER y sincronizan la energía terrestre.",
+  "status": "vista-previa",
   "cover": null,
-  "pages": []
+  "pages": [
+    {
+      "id": "guion-1",
+      "image": null,
+      "alt": "Del otro lado",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "El brazo de CROSS FADER golpea el concreto. ECO tira de un anclaje y evita el impacto; CUE rueda por el otro lado.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡BAM!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Desde una azotea, PADS y SCRATCH siguen el combate. PADS se asoma cuando una placa cae cerca de ECO.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CROSS FADER vuelve hacia ECO. CUE lo obliga a girar tirando una placa delante de sus pies.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-2",
+      "image": null,
+      "alt": "Fuera de tiempo",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE intenta levantar su esfera. El golpe del prototipo le corta la concentración y la energía se dispersa.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Los cables de ECO sujetan por un instante el brazo de CROSS FADER; el tirón arrastra también a ECO.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO ve que CUE sigue de pie. Marca el compás con un conector contra el suelo.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TAC… TAC…"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Escuchá."
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-3",
+      "image": null,
+      "alt": "Ámbar y turquesa",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "La esfera ámbar toma forma. CUE ajusta su respiración al pulso y levanta la esfera turquesa.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CROSS FADER avanza. Las dos esferas oscilan, se acercan y conservan el mismo ritmo.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO y CUE sueltan al mismo tiempo. El borde ámbar y el núcleo turquesa se funden en un solo golpe.",
+          "lines": [
+            {
+              "kind": "impact",
+              "text": "¡KRAAAK!"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-4",
+      "image": null,
+      "alt": "Después del golpe",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "El polvo cae. CROSS FADER intenta incorporarse; sus dedos resbalan sobre el concreto.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE espera junto a ECO. El cuerpo del prototipo queda inmóvil.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En el borde de la viñeta, entre los restos del equipo, parpadea una señal que se apaga enseguida.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TIC"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    }
+  ]
 }

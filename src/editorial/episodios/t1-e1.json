@@ -3,7 +3,7 @@
   "season": 1,
   "number": 1,
   "title": "AUSTRAL, la capital natal",
-  "synopsis": "Una persecución en el presente da paso a la vida cotidiana de Austral años atrás.",
+  "synopsis": "En una ciudad que repite la misma promesa, CUE encuentra un ritmo propio.",
   "status": "vista-previa",
   "cover": {
     "jpeg": "media/imagenes/t1-e1-portada-v1.jpg",
@@ -123,6 +123,166 @@
               "text": "¡CLAC!"
             }
           ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-1",
+      "image": null,
+      "alt": "El cruce",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE baja del puente y pisa la vereda junto al resto de los peatones.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡TAC!"
+            }
+          ]
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "El semáforo cambia. Decenas de personas de ojos blancos pisan la senda en el mismo instante.",
+          "lines": []
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE se retrasa un paso para esquivar un charco. Su bota cae entre dos pulsos de la multitud.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-2",
+      "image": null,
+      "alt": "Frecuencia de fondo",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE pasa ante una pantalla institucional. En el vidrio se superponen su reflejo y la torre de OMNIA.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Sus dedos marcan un ritmo en la correa del arnés mientras sigue caminando.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TAC… TAC-TAC"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Al llegar a la esquina retoma el paso de la multitud, con los auriculares turquesa todavía al cuello.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-3",
+      "image": null,
+      "alt": "Una ciudad en horario",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Las persianas de los comercios bajan al terminar la jornada. La gente vuelve a cruzar el puente.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "La tarde se apaga detrás de las agujas de la torre.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Al caer la noche."
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "En la calle oscura, finos hilos blancos suben verticalmente desde las cabezas de los peatones.",
+          "lines": []
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "guion-4",
+      "image": null,
+      "alt": "El último compás",
+      "panels": [
+        {
+          "id": "vineta-1",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE llega al departamento. En el vidrio oscuro se refleja su ojo blanco.",
+          "lines": []
+        },
+        {
+          "id": "vineta-2",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Sobre la mesa, sus dedos vuelven a buscar aquel ritmo.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "TAC… TAC-TAC"
+            }
+          ]
+        },
+        {
+          "id": "vineta-3",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Visto desde fuera, el departamento de CUE se pierde entre cientos de ventanas iguales. El hilo blanco sigue intacto.",
+          "lines": []
         }
       ],
       "audio": []
