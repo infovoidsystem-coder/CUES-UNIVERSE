@@ -33,6 +33,19 @@
               "text": "Presente"
             }
           ]
+        },
+        {
+          "id": "charco",
+          "x": 12,
+          "y": 84,
+          "width": 32,
+          "height": 10,
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "¡CHAF!"
+            }
+          ]
         }
       ],
       "audio": []
