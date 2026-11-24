@@ -97,7 +97,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
       {episode.status === 'vista-previa' && <small>Edición en desarrollo · Páginas ilustradas y guion de manga</small>}
       {notice && <small role="status">{notice}</small>}
     </header>
-    <div className={'stream ' + (vertical ? 'vertical' : 'horizontal')} ref={stream}
+    <div className={'stream ' + (vertical ? 'vertical' : zoom === 1 ? 'horizontal fit-page' : 'horizontal')} ref={stream}
       onTouchStart={event => { touch.current = event.touches.length === 1 ? {x:event.touches[0].clientX,y:event.touches[0].clientY} : null }}
       onTouchEnd={event => {
         const start = touch.current

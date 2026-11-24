@@ -87,3 +87,4 @@ button:disabled{opacity:.45;cursor:default}
 .script-page .panel :is(.dialogue,.broadcast,.narration){font-size:.95rem;max-width:100%}
 .script-page .panel :is(.sfx,.impact){margin:.3em .15em}
 .script-page .script-description p{background:#000;color:#fff;padding:.45em .65em;border:1px solid #99a4aa}
+.stream.fit-page{container-type:size}.fit-page .script-page img{max-height:calc(100cqh - 1.5rem);object-fit:contain}
