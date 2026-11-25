@@ -129,7 +129,11 @@
     },
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e1-p5-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El cruce",
       "panels": [
         {
@@ -169,7 +173,11 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e1-p6-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Frecuencia de fondo",
       "panels": [
         {
@@ -192,6 +200,12 @@
             {
               "kind": "sfx",
               "text": "TAC… TAC-TAC"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Un paso, dos… ahí entra.",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },
@@ -209,7 +223,11 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e1-p7-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-p7-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Una ciudad en horario",
       "panels": [
         {
@@ -249,7 +267,11 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e1-p8-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-p8-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El último compás",
       "panels": [
         {
@@ -272,6 +294,12 @@
             {
               "kind": "sfx",
               "text": "TAC… TAC-TAC"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¿Cómo era?",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },

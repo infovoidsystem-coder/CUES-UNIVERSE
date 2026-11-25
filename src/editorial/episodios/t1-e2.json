@@ -9,7 +9,11 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e2-p1-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Dos pulsos",
       "panels": [
         {
@@ -56,7 +60,11 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e2-p2-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El conector",
       "panels": [
         {
@@ -107,7 +115,11 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e2-p3-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El peso",
       "panels": [
         {
@@ -130,6 +142,12 @@
             {
               "kind": "sfx",
               "text": "¡TRR!"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Lo siento en los talones. Se me va para atrás.",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },
@@ -153,7 +171,11 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e2-p4-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El primer ensayo",
       "panels": [
         {
@@ -199,7 +221,11 @@
     },
     {
       "id": "guion-5",
-      "image": {"jpeg":"media/imagenes/t1-e2-p5-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La prueba sigue",
       "panels": [
         {
@@ -209,7 +235,14 @@
           "width": 90,
           "height": 15,
           "description": "ECO extiende dos cables. Uno golpea el suelo a la izquierda de CUE y el otro queda tendido detrás.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¿Los dos a la vez?",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-2",

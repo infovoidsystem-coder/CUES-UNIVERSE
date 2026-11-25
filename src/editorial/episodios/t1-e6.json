@@ -48,7 +48,11 @@
     },
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e6-p2-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El mismo comienzo",
       "panels": [
         {
@@ -80,7 +84,11 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e6-p3-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La salida",
       "panels": [
         {
@@ -90,7 +98,14 @@
           "width": 90,
           "height": 15,
           "description": "CUE planta los pies en un cruce mojado, encuentra el pulso y forma por sí solo la esfera turquesa.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Los pies primero.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-2",
@@ -113,14 +128,25 @@
           "width": 90,
           "height": 15,
           "description": "Los agentes rodean la placa y pierden a CUE de vista bajo la lluvia.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "Agente de OMNIA",
+              "text": "Perdimos contacto.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         }
       ],
       "audio": []
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e6-p4-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Otro objetivo",
       "panels": [
         {
@@ -167,7 +193,11 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e6-p5-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El recuerdo",
       "panels": [
         {
@@ -219,7 +249,11 @@
     },
     {
       "id": "guion-5",
-      "image": {"jpeg":"media/imagenes/t1-e6-p6-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Nombre",
       "panels": [
         {
@@ -265,7 +299,11 @@
     },
     {
       "id": "guion-6",
-      "image": {"jpeg":"media/imagenes/escena-6-7.jpg","width":502,"height":502},
+      "image": {
+        "jpeg": "media/imagenes/escena-6-7.jpg",
+        "width": 502,
+        "height": 502
+      },
       "alt": "Corte",
       "panels": [
         {

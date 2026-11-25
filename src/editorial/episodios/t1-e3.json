@@ -9,7 +9,11 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e3-p1-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La caída",
       "panels": [
         {
@@ -68,7 +72,11 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e3-p2-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La prueba de sonido",
       "panels": [
         {
@@ -78,7 +86,14 @@
           "width": 90,
           "height": 15,
           "description": "CUE desenrolla un cable en el lugar de trabajo de FADER. Su jefe escucha una prueba frente a la consola.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Pará un segundo. Hay un ruido en ese canal.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-2",
@@ -114,7 +129,11 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e3-p3-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "El compás de PLAY",
       "panels": [
         {
@@ -141,6 +160,12 @@
             {
               "kind": "sfx",
               "text": "TRRÁN"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Contestame estas dos.",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },
@@ -164,7 +189,11 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e3-p4-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Fuera del trabajo",
       "panels": [
         {
@@ -210,7 +239,11 @@
     },
     {
       "id": "guion-5",
-      "image": {"jpeg":"media/imagenes/t1-e3-p5-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Los vinilos",
       "panels": [
         {

@@ -9,7 +9,11 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e4-p1-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Los discos",
       "panels": [
         {
@@ -55,7 +59,11 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e4-p2-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "PADS interviene",
       "panels": [
         {
@@ -101,7 +109,11 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e4-p3-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Una noche conectado",
       "panels": [
         {
@@ -135,14 +147,31 @@
           "width": 90,
           "height": 15,
           "description": "Al amanecer, ECO abre los ojos y mira un instante a PLAY antes de comprobar los cables reparados.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "¿Cuánto tiempo me quedé acá?",
+              "estadoEditorial": "pendiente de aprobación"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "PLAY",
+              "text": "Lo suficiente para que pudiera arreglarte los dos.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         }
       ],
       "audio": []
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e4-p4-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Lo que ECO cuenta",
       "panels": [
         {
@@ -186,6 +215,12 @@
             {
               "kind": "sfx",
               "text": "TOC, TOC"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¿Y SCRATCH sabe lo que me acabás de contar?",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         }
@@ -194,7 +229,11 @@
     },
     {
       "id": "guion-5",
-      "image": {"jpeg":"media/imagenes/t1-e4-p5-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La visita",
       "panels": [
         {
@@ -247,7 +286,11 @@
     },
     {
       "id": "guion-6",
-      "image": {"jpeg":"media/imagenes/t1-e4-p6-secuencia.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "La esfera",
       "panels": [
         {
@@ -270,6 +313,12 @@
             {
               "kind": "sfx",
               "text": "¡PFF!"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Se me desarma apenas la levanto.",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },
@@ -293,7 +342,11 @@
     },
     {
       "id": "guion-7",
-      "image": {"jpeg":"media/imagenes/t1-e4-p7-continuidad.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p7-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "CROSS FADER",
       "panels": [
         {

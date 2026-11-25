@@ -9,7 +9,11 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e5-p1-continuidad.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p1-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Del otro lado",
       "panels": [
         {
@@ -23,6 +27,12 @@
             {
               "kind": "impact",
               "text": "¡BAM!"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "¡CUE, rodá!",
+              "estadoEditorial": "pendiente de aprobación"
             }
           ]
         },
@@ -42,14 +52,25 @@
           "width": 90,
           "height": 15,
           "description": "CROSS FADER vuelve hacia ECO. CUE lo obliga a girar tirando una placa delante de sus pies.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¡Acá, FADER!",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         }
       ],
       "audio": []
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e5-p2-continuidad.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p2-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Fuera de tiempo",
       "panels": [
         {
@@ -68,7 +89,14 @@
           "width": 90,
           "height": 15,
           "description": "Los cables de ECO sujetan por un instante el brazo de CROSS FADER; el tirón arrastra también a ECO.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Le sujeté el brazo. ¿Podés levantarte?",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-3",
@@ -94,7 +122,11 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e5-p3-continuidad.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p3-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Ámbar y turquesa",
       "panels": [
         {
@@ -104,7 +136,14 @@
           "width": 90,
           "height": 15,
           "description": "ECO levanta piedras del suelo y forma su esfera ámbar. A su lado, CUE reúne la tierra en una esfera turquesa.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Te escucho. Sostené ese pulso.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-2",
@@ -113,7 +152,20 @@
           "width": 90,
           "height": 15,
           "description": "CROSS FADER avanza. Las dos esferas oscilan, se acercan y conservan el mismo ritmo.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Cuando entre tu golpe.",
+              "estadoEditorial": "pendiente de aprobación"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "Ahora.",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-3",
@@ -134,7 +186,11 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e5-p4-continuidad.jpg","width":1024,"height":1536},
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p4-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
       "alt": "Después del golpe",
       "panels": [
         {
@@ -144,7 +200,14 @@
           "width": 90,
           "height": 15,
           "description": "El polvo cae. CROSS FADER intenta incorporarse; sus dedos resbalan sobre el concreto.",
-          "lines": []
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "CUE",
+              "text": "¿Fader?",
+              "estadoEditorial": "pendiente de aprobación"
+            }
+          ]
         },
         {
           "id": "vineta-2",
