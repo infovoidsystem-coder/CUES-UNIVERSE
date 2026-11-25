@@ -2,9 +2,9 @@
 
 | Escena | Ilustración | Estado del texto |
 |---|---|---|
-| 01-01 | media/imagenes/t1-e1-persecucion-v1.jpg | propuesto |
-| 01-02 | media/imagenes/t1-e1-persecucion-v1.jpg | propuesto |
-| 01-03 | media/imagenes/t1-e1-persecucion-v1.jpg |  |
+| 01-01 | media/escenas/apertura-1.jpg | propuesto |
+| 01-02 | media/escenas/apertura-2.jpg | propuesto |
+| 01-03 | media/escenas/apertura-3.jpg |  |
 | 01-04 | media/imagenes/t1-e1-pasado-v1.jpg | propuesto |
 | 01-05 | media/imagenes/t1-e1-departamento-v1.jpg | literal |
 | 01-06 | media/imagenes/t1-e1-puente-v1.jpg |  |
@@ -67,9 +67,9 @@
 | 05-12 | media/imagenes/t1-e5-p4-continuidad.jpg |  |
 | 05-13 | media/imagenes/t1-e5-p4-continuidad.jpg | propuesto, propuesto |
 | 05-14 | media/escenas/05-14.jpg | propuesto |
-| 06-01 | media/imagenes/t1-e1-persecucion-v1.jpg | propuesto |
-| 06-02 | media/imagenes/t1-e1-persecucion-v1.jpg | propuesto |
-| 06-03 | media/imagenes/t1-e1-persecucion-v1.jpg |  |
+| 06-01 | media/escenas/apertura-1.jpg | propuesto |
+| 06-02 | media/escenas/apertura-2.jpg | propuesto |
+| 06-03 | media/escenas/apertura-3.jpg |  |
 | 06-04 | media/imagenes/t1-e6-p2-secuencia.jpg | literal |
 | 06-05 | media/imagenes/t1-e6-p3-secuencia.jpg | propuesto |
 | 06-06 | media/imagenes/t1-e6-p3-secuencia.jpg |  |

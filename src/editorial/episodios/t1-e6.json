@@ -10,11 +10,11 @@
     {
       "id": "persecucion",
       "image": {
-        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "jpeg": "media/escenas/apertura-1.jpg",
         "width": 1024,
-        "height": 837
+        "height": 354
       },
-      "alt": "Escena 06-01",
+      "alt": "La torre de OMNIA sobre Austral bajo la lluvia.",
       "panels": [
         {
           "id": "06-01",
@@ -37,11 +37,11 @@
     {
       "id": "06-02",
       "image": {
-        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
-        "width": 1024,
-        "height": 837
+        "jpeg": "media/escenas/apertura-2.jpg",
+        "width": 423,
+        "height": 446
       },
-      "alt": "Escena 06-02",
+      "alt": "Los agentes corren por la calle tras CUE.",
       "panels": [
         {
           "id": "06-02",
@@ -65,11 +65,11 @@
     {
       "id": "06-03",
       "image": {
-        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
-        "width": 1024,
-        "height": 837
+        "jpeg": "media/escenas/apertura-3.jpg",
+        "width": 609,
+        "height": 469
       },
-      "alt": "Escena 06-03",
+      "alt": "CUE sigue corriendo bajo la lluvia.",
       "panels": [
         {
           "id": "06-03",
