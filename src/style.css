@@ -88,3 +88,8 @@ button:disabled{opacity:.45;cursor:default}
 .script-page .panel :is(.sfx,.impact){margin:.3em .15em}
 .script-page .script-description p{background:#000;color:#fff;padding:.45em .65em;border:1px solid #99a4aa}
 .stream.fit-page{container-type:size}.fit-page .script-page img{max-height:calc(100cqh - 1.5rem);object-fit:contain}
+.reader-footer select{min-height:44px;border:1px solid var(--line);border-radius:.4rem;background:#172126;color:white;padding:0 .4rem;font:inherit}
+.script-page .panel:empty{display:none}
+.script-page .panel .dialogue,.script-page .panel .broadcast{font-size:clamp(1.05rem,4vw,1.2rem);line-height:1.38;padding:.65em 1em;max-width:92%;margin-bottom:.5rem}
+.panel .dialogue strong,.panel .broadcast strong{display:block;font-size:.75em;letter-spacing:.04em}
+@media(max-width:650px){.reader{position:fixed;inset:0;z-index:5;height:100dvh;min-height:0}.reader-bar h1{font-size:1.35rem}.reader-bar small{display:none}.reader-footer{flex-wrap:nowrap;align-items:center}.reader-footer button,.reader-footer .outline{padding:.5rem;font-size:.9rem}.reader-footer select{min-width:0}.page-holder{padding:.35rem}.fit-page .script-page img{max-height:calc(100cqh - 8rem);object-fit:contain}}

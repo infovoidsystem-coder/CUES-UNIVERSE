@@ -18,7 +18,7 @@
         "width": 1024,
         "height": 837
       },
-      "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
+      "alt": "Escena 01-01",
       "panels": [
         {
           "id": "01-01",
@@ -34,7 +34,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "01-02",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "Escena 01-02",
+      "panels": [
         {
           "id": "01-02",
           "x": 5,
@@ -50,7 +62,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "01-03",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "Escena 01-03",
+      "panels": [
         {
           "id": "01-03",
           "x": 5,
@@ -70,7 +94,7 @@
         "width": 1024,
         "height": 699
       },
-      "alt": "La torre domina la ciudad a plena luz. Los habitantes de ojos blancos caminan por las calles de Austral.",
+      "alt": "Escena 01-04",
       "panels": [
         {
           "id": "01-04",
@@ -97,7 +121,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "CUE mira la torre de OMNIA desde su departamento. Se oye el saludo institucional de la mañana.",
+      "alt": "Escena 01-05",
       "panels": [
         {
           "id": "01-05",
@@ -125,7 +149,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "CUE cierra la puerta de su departamento y cruza un puente peatonal entre los habitantes de Austral.",
+      "alt": "Escena 01-06",
       "panels": [
         {
           "id": "01-06",
@@ -135,7 +159,19 @@
           "height": 15,
           "description": "CUE se prepara para salir; ojos blancos mate, auriculares al cuello.",
           "lines": []
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "01-07",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-puente-v1.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 01-07",
+      "panels": [
         {
           "id": "01-07",
           "x": 5,
@@ -150,7 +186,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "01-08",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-puente-v1.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 01-08",
+      "panels": [
         {
           "id": "01-08",
           "x": 5,
@@ -172,8 +220,12 @@
     },
     {
       "id": "01-09",
-      "image": null,
-      "alt": "Ilustración pendiente · 01-09",
+      "image": {
+        "jpeg": "media/escenas/01-09.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 01-09",
       "panels": [
         {
           "id": "01-09",
@@ -194,7 +246,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Una ciudad en horario",
+      "alt": "Escena 01-10",
       "panels": [
         {
           "id": "01-10",
@@ -221,7 +273,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "El último compás",
+      "alt": "Escena 01-11",
       "panels": [
         {
           "id": "01-11",

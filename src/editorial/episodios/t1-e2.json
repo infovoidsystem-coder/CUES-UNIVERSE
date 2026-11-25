@@ -14,7 +14,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Dos pulsos",
+      "alt": "Escena 02-01",
       "panels": [
         {
           "id": "02-01",
@@ -31,7 +31,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-02",
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 02-02",
+      "panels": [
         {
           "id": "02-02",
           "x": 5,
@@ -58,7 +70,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "El conector",
+      "alt": "Escena 02-03",
       "panels": [
         {
           "id": "02-03",
@@ -75,7 +87,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-04",
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 02-04",
+      "panels": [
         {
           "id": "02-04",
           "x": 5,
@@ -91,7 +115,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-05",
+      "image": {
+        "jpeg": "media/imagenes/t1-e2-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 02-05",
+      "panels": [
         {
           "id": "02-05",
           "x": 5,
@@ -113,8 +149,12 @@
     },
     {
       "id": "02-06",
-      "image": null,
-      "alt": "Ilustración pendiente · 02-06",
+      "image": {
+        "jpeg": "media/escenas/02-06.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-06",
       "panels": [
         {
           "id": "02-06",
@@ -131,7 +171,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-07",
+      "image": {
+        "jpeg": "media/escenas/02-07.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-07",
+      "panels": [
         {
           "id": "02-07",
           "x": 5,
@@ -153,8 +205,12 @@
     },
     {
       "id": "02-08",
-      "image": null,
-      "alt": "Ilustración pendiente · 02-08",
+      "image": {
+        "jpeg": "media/escenas/02-08.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-08",
       "panels": [
         {
           "id": "02-08",
@@ -171,7 +227,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-09",
+      "image": {
+        "jpeg": "media/escenas/02-09.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-09",
+      "panels": [
         {
           "id": "02-09",
           "x": 5,
@@ -193,7 +261,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-10",
+      "image": {
+        "jpeg": "media/escenas/02-10.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-10",
+      "panels": [
         {
           "id": "02-10",
           "x": 5,
@@ -214,8 +294,12 @@
     },
     {
       "id": "02-11",
-      "image": null,
-      "alt": "Ilustración pendiente · 02-11",
+      "image": {
+        "jpeg": "media/escenas/02-11.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 02-11",
       "panels": [
         {
           "id": "02-11",

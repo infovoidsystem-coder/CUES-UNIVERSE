@@ -14,7 +14,7 @@
         "width": 1024,
         "height": 837
       },
-      "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
+      "alt": "Escena 06-01",
       "panels": [
         {
           "id": "06-01",
@@ -30,7 +30,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-02",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "Escena 06-02",
+      "panels": [
         {
           "id": "06-02",
           "x": 5,
@@ -46,7 +58,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-03",
+      "image": {
+        "jpeg": "media/imagenes/t1-e1-persecucion-v1.jpg",
+        "width": 1024,
+        "height": 837
+      },
+      "alt": "Escena 06-03",
+      "panels": [
         {
           "id": "06-03",
           "x": 5,
@@ -66,7 +90,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "El mismo comienzo",
+      "alt": "Escena 06-04",
       "panels": [
         {
           "id": "06-04",
@@ -94,7 +118,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "La salida",
+      "alt": "Escena 06-05",
       "panels": [
         {
           "id": "06-05",
@@ -110,7 +134,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-06",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-06",
+      "panels": [
         {
           "id": "06-06",
           "x": 5,
@@ -119,7 +155,19 @@
           "height": 15,
           "description": "CUE utiliza tierra para abrir una oportunidad de escape; no inventar otros elementos.",
           "lines": []
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-07",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-07",
+      "panels": [
         {
           "id": "06-07",
           "x": 5,
@@ -146,7 +194,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Otro objetivo",
+      "alt": "Escena 06-08",
       "panels": [
         {
           "id": "06-08",
@@ -163,7 +211,19 @@
               "status": "literal"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-09",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-09",
+      "panels": [
         {
           "id": "06-09",
           "x": 5,
@@ -179,7 +239,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-10",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p4-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-10",
+      "panels": [
         {
           "id": "06-10",
           "x": 5,
@@ -201,8 +273,12 @@
     },
     {
       "id": "06-11",
-      "image": null,
-      "alt": "Ilustración pendiente · 06-11",
+      "image": {
+        "jpeg": "media/escenas/06-11.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 06-11",
       "panels": [
         {
           "id": "06-11",
@@ -219,7 +295,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-12",
+      "image": {
+        "jpeg": "media/escenas/06-12.jpg",
+        "width": 1536,
+        "height": 512
+      },
+      "alt": "Escena 06-12",
+      "panels": [
         {
           "id": "06-12",
           "x": 5,
@@ -235,7 +323,19 @@
               "status": "literal"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-13",
+      "image": {
+        "jpeg": "media/escenas/06-13.jpg",
+        "width": 1536,
+        "height": 512
+      },
+      "alt": "Escena 06-13",
+      "panels": [
         {
           "id": "06-13",
           "x": 5,
@@ -268,7 +368,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "El recuerdo",
+      "alt": "Escena 06-14",
       "panels": [
         {
           "id": "06-14",
@@ -278,7 +378,19 @@
           "height": 15,
           "description": "Fragmentos alterados de recuerdos de CUE y PLAY; distinguir distorsión de realidad, no fijar recuerdos falsos específicos sin aprobación.",
           "lines": []
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-15",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-15",
+      "panels": [
         {
           "id": "06-15",
           "x": 5,
@@ -305,7 +417,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Nombre",
+      "alt": "Escena 06-16",
       "panels": [
         {
           "id": "06-16",
@@ -321,7 +433,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-17",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-17",
+      "panels": [
         {
           "id": "06-17",
           "x": 5,
@@ -337,7 +461,19 @@
               "status": "literal"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-18",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-18",
+      "panels": [
         {
           "id": "06-18",
           "x": 5,
@@ -352,7 +488,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-19",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-19",
+      "panels": [
         {
           "id": "06-19",
           "x": 5,
@@ -368,7 +516,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-20",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-20",
+      "panels": [
         {
           "id": "06-20",
           "x": 5,
@@ -377,7 +537,19 @@
           "height": 15,
           "description": "NO SIGNAL se coloca lentamente los auriculares desde el cuello, sin hablar.",
           "lines": []
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-21",
+      "image": {
+        "jpeg": "media/imagenes/t1-e6-p6-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 06-21",
+      "panels": [
         {
           "id": "06-21",
           "x": 5,
@@ -403,7 +575,7 @@
         "width": 502,
         "height": 502
       },
-      "alt": "Corte",
+      "alt": "Escena 06-22",
       "panels": [
         {
           "id": "06-22",

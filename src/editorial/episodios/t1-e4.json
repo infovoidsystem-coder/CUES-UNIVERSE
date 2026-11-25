@@ -14,7 +14,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Los vinilos",
+      "alt": "Escena 04-01",
       "panels": [
         {
           "id": "04-01",
@@ -42,7 +42,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Los discos",
+      "alt": "Escena 04-02",
       "panels": [
         {
           "id": "04-02",
@@ -59,7 +59,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-03",
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 04-03",
+      "panels": [
         {
           "id": "04-03",
           "x": 5,
@@ -81,8 +93,12 @@
     },
     {
       "id": "04-04",
-      "image": null,
-      "alt": "Ilustración pendiente · 04-04",
+      "image": {
+        "jpeg": "media/escenas/04-04.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 04-04",
       "panels": [
         {
           "id": "04-04",
@@ -99,7 +115,19 @@
               "status": "literal"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-05",
+      "image": {
+        "jpeg": "media/escenas/04-05.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 04-05",
+      "panels": [
         {
           "id": "04-05",
           "x": 5,
@@ -126,7 +154,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "PADS interviene",
+      "alt": "Escena 04-06",
       "panels": [
         {
           "id": "04-06",
@@ -143,7 +171,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-07",
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p2-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 04-07",
+      "panels": [
         {
           "id": "04-07",
           "x": 5,
@@ -169,7 +209,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Una noche conectado",
+      "alt": "Escena 04-08",
       "panels": [
         {
           "id": "04-08",
@@ -197,7 +237,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Lo que ECO cuenta",
+      "alt": "Escena 04-09",
       "panels": [
         {
           "id": "04-09",
@@ -231,7 +271,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "La visita",
+      "alt": "Escena 04-10",
       "panels": [
         {
           "id": "04-10",
@@ -253,7 +293,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-11",
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 04-11",
+      "panels": [
         {
           "id": "04-11",
           "x": 5,
@@ -275,7 +327,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-12",
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 04-12",
+      "panels": [
         {
           "id": "04-12",
           "x": 5,
@@ -308,7 +372,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "La esfera",
+      "alt": "Escena 04-13",
       "panels": [
         {
           "id": "04-13",
@@ -337,8 +401,12 @@
     },
     {
       "id": "04-14",
-      "image": null,
-      "alt": "Ilustración pendiente · 04-14",
+      "image": {
+        "jpeg": "media/escenas/04-14.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 04-14",
       "panels": [
         {
           "id": "04-14",
@@ -366,7 +434,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "CROSS FADER",
+      "alt": "Escena 04-15",
       "panels": [
         {
           "id": "04-15",
@@ -382,7 +450,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "04-16",
+      "image": {
+        "jpeg": "media/imagenes/t1-e4-p7-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 04-16",
+      "panels": [
         {
           "id": "04-16",
           "x": 5,
@@ -404,8 +484,12 @@
     },
     {
       "id": "04-17",
-      "image": null,
-      "alt": "Ilustración pendiente · 04-17",
+      "image": {
+        "jpeg": "media/escenas/04-17.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 04-17",
       "panels": [
         {
           "id": "04-17",

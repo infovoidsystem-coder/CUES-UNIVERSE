@@ -9,8 +9,12 @@
   "pages": [
     {
       "id": "03-01",
-      "image": null,
-      "alt": "Ilustración pendiente · 03-01",
+      "image": {
+        "jpeg": "media/escenas/03-01.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 03-01",
       "panels": [
         {
           "id": "03-01",
@@ -27,7 +31,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-02",
+      "image": {
+        "jpeg": "media/escenas/03-02.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 03-02",
+      "panels": [
         {
           "id": "03-02",
           "x": 5,
@@ -43,7 +59,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-03",
+      "image": {
+        "jpeg": "media/escenas/03-03.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 03-03",
+      "panels": [
         {
           "id": "03-03",
           "x": 5,
@@ -59,7 +87,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-04",
+      "image": {
+        "jpeg": "media/escenas/03-04.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 03-04",
+      "panels": [
         {
           "id": "03-04",
           "x": 5,
@@ -86,7 +126,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "La caída",
+      "alt": "Escena 03-05",
       "panels": [
         {
           "id": "03-05",
@@ -108,7 +148,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-06",
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p1-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 03-06",
+      "panels": [
         {
           "id": "03-06",
           "x": 5,
@@ -135,7 +187,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "La prueba de sonido",
+      "alt": "Escena 03-07",
       "panels": [
         {
           "id": "03-07",
@@ -169,7 +221,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "El compás de PLAY",
+      "alt": "Escena 03-08",
       "panels": [
         {
           "id": "03-08",
@@ -192,7 +244,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-09",
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p3-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 03-09",
+      "panels": [
         {
           "id": "03-09",
           "x": 5,
@@ -225,7 +289,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Los vinilos",
+      "alt": "Escena 03-10",
       "panels": [
         {
           "id": "03-10",
@@ -242,7 +306,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-11",
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 03-11",
+      "panels": [
         {
           "id": "03-11",
           "x": 5,
@@ -258,7 +334,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "03-12",
+      "image": {
+        "jpeg": "media/imagenes/t1-e3-p5-secuencia.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 03-12",
+      "panels": [
         {
           "id": "03-12",
           "x": 5,

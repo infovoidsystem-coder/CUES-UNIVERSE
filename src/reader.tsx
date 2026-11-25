@@ -56,7 +56,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     const target = pages[currentIndex.current]
     root.scrollTop = target.offsetTop
     const observePage = () => {
-      const marker = root.scrollTop + root.clientHeight * 0.35
+      const marker = root.scrollTop + 1
       let active = 0
       for (const [i, el] of pages.entries()) if (el.offsetTop <= marker) active = i
       if (root.scrollTop > 0 && root.scrollHeight - root.clientHeight - root.scrollTop < 2) active = pages.length - 1
@@ -83,7 +83,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     } catch { setNotice('La pantalla completa no está disponible en este dispositivo.') }
   }
   return <section className="reader" ref={reader} tabIndex={0} onKeyDown={event => {
-    if (event.target !== event.currentTarget || vertical) return
+    if (event.target instanceof HTMLSelectElement || vertical) return
     if (event.key === 'ArrowLeft') move(-1)
     if (event.key === 'ArrowRight') move(1)
   }}>
@@ -111,7 +111,7 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     </div>
     <footer className="reader-footer">
       <button disabled={!index} onClick={() => move(-1)}>← Anterior</button>
-      <span aria-live="polite">{index + 1} / {episode.pages.length}</span>
+      <select aria-label="Ir a escena" value={index} onChange={event => move(Number(event.target.value) - currentIndex.current)}>{episode.pages.map((scene, i) => <option key={scene.id} value={i}>Escena {i + 1} / {episode.pages.length}</option>)}</select>
       {index === last && nextEpisode
         ? <Link className="outline" to={'/leer/' + nextEpisode.id}>Episodio {nextEpisode.number} →</Link>
         : <button disabled={index === last} onClick={() => move(1)}>Siguiente →</button>}

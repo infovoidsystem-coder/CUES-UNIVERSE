@@ -14,7 +14,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Del otro lado",
+      "alt": "Escena 05-01",
       "panels": [
         {
           "id": "05-01",
@@ -30,7 +30,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-02",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p1-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-02",
+      "panels": [
         {
           "id": "05-02",
           "x": 5,
@@ -46,7 +58,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-03",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p1-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-03",
+      "panels": [
         {
           "id": "05-03",
           "x": 5,
@@ -68,8 +92,12 @@
     },
     {
       "id": "05-04",
-      "image": null,
-      "alt": "Ilustración pendiente · 05-04",
+      "image": {
+        "jpeg": "media/escenas/05-04.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 05-04",
       "panels": [
         {
           "id": "05-04",
@@ -103,7 +131,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Fuera de tiempo",
+      "alt": "Escena 05-05",
       "panels": [
         {
           "id": "05-05",
@@ -119,7 +147,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-06",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p2-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-06",
+      "panels": [
         {
           "id": "05-06",
           "x": 5,
@@ -146,7 +186,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Ámbar y turquesa",
+      "alt": "Escena 05-07",
       "panels": [
         {
           "id": "05-07",
@@ -163,7 +203,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-08",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p3-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-08",
+      "panels": [
         {
           "id": "05-08",
           "x": 5,
@@ -179,7 +231,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-09",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p3-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-09",
+      "panels": [
         {
           "id": "05-09",
           "x": 5,
@@ -195,7 +259,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-10",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p3-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-10",
+      "panels": [
         {
           "id": "05-10",
           "x": 5,
@@ -211,7 +287,19 @@
               "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-11",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p3-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-11",
+      "panels": [
         {
           "id": "05-11",
           "x": 5,
@@ -237,7 +325,7 @@
         "width": 1024,
         "height": 1536
       },
-      "alt": "Después del golpe",
+      "alt": "Escena 05-12",
       "panels": [
         {
           "id": "05-12",
@@ -247,7 +335,19 @@
           "height": 15,
           "description": "CROSS FADER cae derrotado; muerte confirmada sin gore innecesario.",
           "lines": []
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-13",
+      "image": {
+        "jpeg": "media/imagenes/t1-e5-p4-continuidad.jpg",
+        "width": 1024,
+        "height": 1536
+      },
+      "alt": "Escena 05-13",
+      "panels": [
         {
           "id": "05-13",
           "x": 5,
@@ -275,8 +375,12 @@
     },
     {
       "id": "05-14",
-      "image": null,
-      "alt": "Ilustración pendiente · 05-14",
+      "image": {
+        "jpeg": "media/escenas/05-14.jpg",
+        "width": 512,
+        "height": 512
+      },
+      "alt": "Escena 05-14",
       "panels": [
         {
           "id": "05-14",
