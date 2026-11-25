@@ -9,7 +9,7 @@
   "pages": [
     {
       "id": "guion-1",
-      "image": {"jpeg":"media/imagenes/t1-e5-p1-cross-fader.jpg","width":1024,"height":1536},
+      "image": {"jpeg":"media/imagenes/t1-e5-p1-continuidad.jpg","width":1024,"height":1536},
       "alt": "Del otro lado",
       "panels": [
         {
@@ -49,7 +49,7 @@
     },
     {
       "id": "guion-2",
-      "image": {"jpeg":"media/imagenes/t1-e5-p2-cross-fader.jpg","width":1024,"height":1536},
+      "image": {"jpeg":"media/imagenes/t1-e5-p2-continuidad.jpg","width":1024,"height":1536},
       "alt": "Fuera de tiempo",
       "panels": [
         {
@@ -94,7 +94,7 @@
     },
     {
       "id": "guion-3",
-      "image": {"jpeg":"media/imagenes/t1-e5-p3-cross-fader.jpg","width":1024,"height":1536},
+      "image": {"jpeg":"media/imagenes/t1-e5-p3-continuidad.jpg","width":1024,"height":1536},
       "alt": "Ámbar y turquesa",
       "panels": [
         {
@@ -103,7 +103,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "La esfera ámbar toma forma. CUE ajusta su respiración al pulso y levanta la esfera turquesa.",
+          "description": "ECO levanta piedras del suelo y forma su esfera ámbar. A su lado, CUE reúne la tierra en una esfera turquesa.",
           "lines": []
         },
         {
@@ -121,7 +121,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO y CUE sueltan al mismo tiempo. El borde ámbar y el núcleo turquesa se funden en un solo golpe.",
+          "description": "ECO y CUE sueltan al mismo tiempo. La esfera de tierra, con núcleo turquesa y borde ámbar, golpea a CROSS FADER.",
           "lines": [
             {
               "kind": "impact",
@@ -134,7 +134,7 @@
     },
     {
       "id": "guion-4",
-      "image": {"jpeg":"media/imagenes/t1-e5-p4-cross-fader.jpg","width":1024,"height":1536},
+      "image": {"jpeg":"media/imagenes/t1-e5-p4-continuidad.jpg","width":1024,"height":1536},
       "alt": "Después del golpe",
       "panels": [
         {
