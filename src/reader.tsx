@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from 'react'
 import type {Dispatch, SetStateAction} from 'react'
-import {Link, useParams} from 'react-router-dom'
+import {Link, useNavigate, useParams} from 'react-router-dom'
 import {available, episodes, media} from './content'
 import type {Episode, Page} from './content'
 import type {Progress} from './progress'
@@ -25,6 +25,7 @@ function ReadingPage({page, eager}: {page: Page; eager: boolean}) {
   </figure>
 }
 function Chapter({episode, progress, update}: Props & {episode: Episode}) {
+  const navigate = useNavigate()
   const [index, setIndex] = useState(() => Math.max(0, episode.pages.findIndex(page => page.id === progress.positions[episode.id])))
   const [zoom, setZoom] = useState(1)
   const [notice, setNotice] = useState('')
@@ -87,7 +88,14 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     if (event.key === 'ArrowLeft') move(-1)
     if (event.key === 'ArrowRight') move(1)
   }}>
-    <header className="reader-bar"><Link to={'/biblioteca/' + episode.season}>← Biblioteca</Link><h1>{episode.title ?? 'Episodio ' + episode.number}</h1>
+    <header className="reader-bar"><Link to={'/biblioteca/' + episode.season}>← Biblioteca</Link><label className="episode-picker">
+        <span>Elegir episodio</span>
+        <select value={episode.id} onChange={event => navigate('/leer/' + event.target.value)}>
+          {episodes.filter(item => item.season === episode.season && available(item)).map(item =>
+            <option key={item.id} value={item.id}>{item.number}. {item.title ?? 'Episodio ' + item.number}</option>
+          )}
+        </select>
+      </label>
       <div className="controls">
         <button onClick={() => {setZoom(1); update(old => ({...old, mode: vertical ? 'horizontal' : 'vertical'}))}}>{vertical ? 'Cambiar a horizontal' : 'Cambiar a vertical'}</button>
         <button disabled={zoom <= 1} onClick={() => setZoom(value => Math.max(1, value - .25))} aria-label="Alejar">−</button>

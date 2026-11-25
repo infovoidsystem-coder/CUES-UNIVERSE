@@ -112,3 +112,6 @@ button:disabled{opacity:.45;cursor:default}
   bottom: auto;
   transform: rotate(225deg);
 }
+.episode-picker{display:grid;gap:.2rem;min-width:0;max-width:100%}
+.episode-picker span{font-size:.8rem;color:#9ce8df}
+.episode-picker select{width:100%;min-width:0;min-height:44px;padding:.4rem .6rem;color:#fff;background:#172126;border:1px solid #52716f;border-radius:.4rem;font:inherit}
