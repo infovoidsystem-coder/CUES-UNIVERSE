@@ -22,8 +22,12 @@ function EpisodeCard({episode}: {episode: Episode}) {
     </div>
   </article>
 }
+function seasonStart(season: number) {
+  const first = episodes.find(e => e.season === season && e.number === 1 && available(e))
+  return first ? readerLink(first.id) : '/biblioteca/' + season
+}
 function SeasonLinks() {
-  return <div className="seasons">{seasons.map(s => <Link className={'season season-' + s.id} key={s.id} to={'/biblioteca/' + s.id}>
+  return <div className="seasons">{seasons.map(s => <Link className={'season season-' + s.id} key={s.id} to={seasonStart(s.id)}>
     <small>Temporada {s.id}</small><strong>{s.element}</strong><span aria-hidden="true">↗</span>
   </Link>)}</div>
 }
@@ -37,7 +41,8 @@ function Home({last}: {last?: string}) {
         <h1>AUSTRAL<span>.</span></h1>
         <p>En una ciudad donde OMNIA controla la memoria y la percepción, CUE descubre en la música una forma de recuperar su autonomía.</p>
         <div className="actions">
-          {last || preview ? <Link className="primary" to={readerLink(last ?? preview!.id)}>{last ? 'Continuar leyendo' : released ? 'Empezar a leer' : 'Leer temporada 1'} →</Link> : null}
+          <Link className="primary" to={seasonStart(1)}>Empezar temporada 1</Link>
+          {last && <Link className="outline" to={readerLink(last) + '?continuar=1'}>Continuar leyendo</Link>}
           <Link className="outline" to="/biblioteca">Explorar biblioteca</Link>
         </div>
       </div>

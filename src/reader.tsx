@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from 'react'
 import type {Dispatch, SetStateAction} from 'react'
-import {Link, useNavigate, useParams} from 'react-router-dom'
+import {Link, useSearchParams, useNavigate, useParams} from 'react-router-dom'
 import {available, episodes, media} from './content'
 import type {Episode, Page} from './content'
 import type {Progress} from './progress'
@@ -26,7 +26,8 @@ function ReadingPage({page, eager}: {page: Page; eager: boolean}) {
 }
 function Chapter({episode, progress, update}: Props & {episode: Episode}) {
   const navigate = useNavigate()
-  const [index, setIndex] = useState(() => Math.max(0, episode.pages.findIndex(page => page.id === progress.positions[episode.id])))
+  const [params] = useSearchParams()
+  const [index, setIndex] = useState(() => params.get('continuar') === '1' ? Math.max(0, episode.pages.findIndex(page => page.id === progress.positions[episode.id])) : 0)
   const [zoom, setZoom] = useState(1)
   const [notice, setNotice] = useState('')
   const reader = useRef<HTMLElement>(null)
