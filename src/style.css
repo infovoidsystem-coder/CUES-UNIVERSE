@@ -93,3 +93,22 @@ button:disabled{opacity:.45;cursor:default}
 .script-page .panel .dialogue,.script-page .panel .broadcast{font-size:clamp(1.05rem,4vw,1.2rem);line-height:1.38;padding:.65em 1em;max-width:92%;margin-bottom:.5rem}
 .panel .dialogue strong,.panel .broadcast strong{display:block;font-size:.75em;letter-spacing:.04em}
 @media(max-width:650px){.reader{position:fixed;inset:0;z-index:5;height:100dvh;min-height:0}.reader-bar h1{font-size:1.35rem}.reader-bar small{display:none}.reader-footer{flex-wrap:nowrap;align-items:center}.reader-footer button,.reader-footer .outline{padding:.5rem;font-size:.9rem}.reader-footer select{min-width:0}.page-holder{padding:.35rem}.fit-page .script-page img{max-height:calc(100cqh - 8rem);object-fit:contain}}
+/* Reserve the same illustration area throughout the season, including before lazy loading. */
+.script-page > picture {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #080c0f;
+}
+.reader .script-page > picture > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+}
+.script-page .panel :is(.dialogue,.broadcast)::after {
+  top: -.36em;
+  bottom: auto;
+  transform: rotate(225deg);
+}

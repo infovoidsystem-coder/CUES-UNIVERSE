@@ -10,9 +10,9 @@
     {
       "id": "04-01",
       "image": {
-        "jpeg": "media/imagenes/t1-e3-p5-secuencia.jpg",
+        "height": 529,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/03-12.jpg"
       },
       "alt": "Escena 04-01",
       "panels": [
@@ -38,9 +38,9 @@
     {
       "id": "guion-1",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p1-secuencia.jpg",
+        "height": 496,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-02.jpg"
       },
       "alt": "Escena 04-02",
       "panels": [
@@ -66,9 +66,9 @@
     {
       "id": "04-03",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p1-secuencia.jpg",
+        "height": 507,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-03.jpg"
       },
       "alt": "Escena 04-03",
       "panels": [
@@ -150,9 +150,9 @@
     {
       "id": "guion-2",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p2-secuencia.jpg",
+        "height": 532,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-06.jpg"
       },
       "alt": "Escena 04-06",
       "panels": [
@@ -178,9 +178,9 @@
     {
       "id": "04-07",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p2-secuencia.jpg",
+        "height": 459,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-07.jpg"
       },
       "alt": "Escena 04-07",
       "panels": [
@@ -205,9 +205,9 @@
     {
       "id": "guion-3",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p3-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
+        "height": 506,
+        "width": 506,
+        "jpeg": "media/vinetas/04-08.jpg"
       },
       "alt": "Escena 04-08",
       "panels": [
@@ -233,9 +233,9 @@
     {
       "id": "guion-4",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p4-secuencia.jpg",
+        "height": 469,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-09.jpg"
       },
       "alt": "Escena 04-09",
       "panels": [
@@ -267,9 +267,9 @@
     {
       "id": "guion-5",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "height": 550,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-10.jpg"
       },
       "alt": "Escena 04-10",
       "panels": [
@@ -300,9 +300,9 @@
     {
       "id": "04-11",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "height": 479,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-11.jpg"
       },
       "alt": "Escena 04-11",
       "panels": [
@@ -334,9 +334,9 @@
     {
       "id": "04-12",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p5-secuencia.jpg",
+        "height": 495,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-12.jpg"
       },
       "alt": "Escena 04-12",
       "panels": [
@@ -368,9 +368,9 @@
     {
       "id": "guion-6",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p6-secuencia.jpg",
+        "height": 469,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-13.jpg"
       },
       "alt": "Escena 04-13",
       "panels": [
@@ -430,9 +430,9 @@
     {
       "id": "guion-7",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p7-continuidad.jpg",
+        "height": 485,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-15.jpg"
       },
       "alt": "Escena 04-15",
       "panels": [
@@ -457,9 +457,9 @@
     {
       "id": "04-16",
       "image": {
-        "jpeg": "media/imagenes/t1-e4-p7-continuidad.jpg",
+        "height": 531,
         "width": 1024,
-        "height": 1536
+        "jpeg": "media/vinetas/04-16.jpg"
       },
       "alt": "Escena 04-16",
       "panels": [

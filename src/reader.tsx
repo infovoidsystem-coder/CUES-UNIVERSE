@@ -20,7 +20,7 @@ function ReadingPage({page, eager}: {page: Page; eager: boolean}) {
     {page.image ? <Artwork art={page.image} alt={page.alt} eager={eager}/> : <figcaption className="script-heading"><small>Ilustración pendiente</small><h2>{page.alt}</h2>{page.notes && <p>{page.notes}</p>}</figcaption>}
     {page.panels.map((panel, panelIndex) => <div key={panel.id} className={overlay ? 'panel overlay' : 'panel'} style={overlay ? {left: panel.x + '%', top: panel.y + '%', width: panel.width + '%', minHeight: panel.height + '%'} : undefined}>
       {panel.description && !/^\d{2}-\d{2}$/.test(panel.id) && <div className="script-description"><span aria-hidden="true">{panelIndex + 1}</span><p>{panel.description}</p></div>}
-      {panel.lines.map((line,i) => <p key={i} className={line.kind}>{line.speaker && <strong>{line.speaker} · </strong>}{line.text}</p>)}
+      {panel.lines.map((line,i) => <p key={i} className={line.kind}>{line.speaker && <strong>{line.speaker}</strong>}{line.text}</p>)}
     </div>)}
   </figure>
 }
@@ -119,3 +119,4 @@ function Chapter({episode, progress, update}: Props & {episode: Episode}) {
     </footer>
   </section>
 }
+
