@@ -3,7 +3,7 @@
   "season": 1,
   "number": 1,
   "title": "El comienzo (AUSTRAL, la capital natal)",
-  "synopsis": "OMNIA persigue a CUE. ECO lo rescata y lo lleva a su refugio en el bosque, antes de que la historia vuelva al pasado.",
+  "synopsis": "Años atrás, OMNIA persigue a CUE por Austral. ECO lo rescata y lo lleva a su refugio en el bosque.",
   "status": "vista-previa",
   "cover": {
     "jpeg": "media/imagenes/t1-e1-portada-v1.jpg",
@@ -11,6 +11,33 @@
     "height": 350
   },
   "pages": [
+    {
+      "id": "pasado",
+      "image": {
+        "height": 363,
+        "width": 1024,
+        "jpeg": "media/vinetas/01-04.jpg"
+      },
+      "alt": "Vista de Austral años atrás.",
+      "panels": [
+        {
+          "id": "01-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PASADO. Plano general de ciudad y torre OMNIA.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "AÑOS ATRÁS",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
     {
       "id": "persecucion",
       "image": {
@@ -86,33 +113,6 @@
             {
               "kind": "narration",
               "text": "El refugio de ECO, en el bosque.",
-              "status": "propuesto"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "pasado",
-      "image": {
-        "height": 363,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-04.jpg"
-      },
-      "alt": "Escena 01-04",
-      "panels": [
-        {
-          "id": "01-04",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "PASADO. Plano general de ciudad y torre OMNIA.",
-          "lines": [
-            {
-              "kind": "narration",
-              "text": "Años atrás.",
               "status": "propuesto"
             }
           ]
