@@ -2,7 +2,7 @@
   "id": "t1-e6",
   "season": 1,
   "number": 6,
-  "title": "NO SIGNAL",
+  "title": "Nacimiento de NO SIGNAL",
   "synopsis": "La historia vuelve a la persecución inicial. Cuando CUE escapa, Ilse pone en marcha otro plan.",
   "status": "vista-previa",
   "cover": null,
@@ -15,33 +15,46 @@
         "height": 837
       },
       "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
-      "notes": "Presente. CUE es perseguido por OMNIA.",
       "panels": [
         {
-          "id": "tiempo",
-          "x": 4,
-          "y": 4,
-          "width": 30,
-          "height": 8,
+          "id": "06-01",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Reutilizar imagen exacta de 01-01, sin regenerarla.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Presente"
+              "text": "Austral.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "charco",
-          "x": 12,
-          "y": 84,
-          "width": 32,
-          "height": 10,
+          "id": "06-02",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Reutilizar 01-02, misma dirección y agentes.",
           "lines": [
             {
-              "kind": "sfx",
-              "text": "¡CHAF!"
+              "kind": "dialogue",
+              "text": "¡Deténgase!",
+              "speaker": "Agente",
+              "status": "propuesto"
             }
           ]
+        },
+        {
+          "id": "06-03",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Reutilizar 01-03 y continuar desde el corte.",
+          "lines": []
         }
       ],
       "audio": []
@@ -56,26 +69,18 @@
       "alt": "El mismo comienzo",
       "panels": [
         {
-          "id": "vineta-2",
+          "id": "06-04",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Volvemos al punto en que la persecución quedó interrumpida. Esta vez vemos que Ilse la observa desde un monitor.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Junto a la imagen de CUE aparece registrada su energía terrestre en el combate contra CROSS FADER.",
+          "description": "Ilse observa monitor; referencia visual al registro de la energía de E5.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "Ilse Varga",
-              "text": "Es él, tráiganmelo."
+              "text": "Es él, tráiganmelo.",
+              "speaker": "ILSE",
+              "status": "literal"
             }
           ]
         }
@@ -92,48 +97,42 @@
       "alt": "La salida",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "06-05",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE planta los pies en un cruce mojado, encuentra el pulso y forma por sí solo la esfera turquesa.",
+          "description": "CUE activa esfera terrestre turquesa sin ayuda de ECO; auriculares sobre orejas.",
           "lines": [
             {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Los pies primero.",
-              "estadoEditorial": "pendiente de aprobación"
+              "kind": "sfx",
+              "text": "VMMM.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-2",
+          "id": "06-06",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "La esfera levanta una placa entre CUE y los agentes. El agua salta alrededor de sus botas.",
-          "lines": [
-            {
-              "kind": "impact",
-              "text": "¡KRAK!"
-            }
-          ]
+          "description": "CUE utiliza tierra para abrir una oportunidad de escape; no inventar otros elementos.",
+          "lines": []
         },
         {
-          "id": "vineta-3",
+          "id": "06-07",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Los agentes rodean la placa y pierden a CUE de vista bajo la lluvia.",
+          "description": "Agentes pierden a CUE; lugar de refugio no definido, no mostrarlo.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "Agente de OMNIA",
-              "text": "Perdimos contacto.",
-              "estadoEditorial": "pendiente de aprobación"
+              "text": "Lo perdimos.",
+              "speaker": "Agente",
+              "status": "propuesto"
             }
           ]
         }
@@ -150,41 +149,112 @@
       "alt": "Otro objetivo",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "06-08",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Un agente informa la pérdida de contacto. Ilse mira la imagen congelada un momento.",
+          "description": "Ilse permanece tranquila, cambia de objetivo.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "Ilse Varga",
-              "text": "No importa, se me ocurrió algo mejor."
+              "text": "No importa, se me ocurrió algo mejor.",
+              "speaker": "ILSE",
+              "status": "literal"
             }
           ]
         },
         {
-          "id": "vineta-2",
+          "id": "06-09",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "PLAY queda rodeado. Sus auriculares negros y rojos siguen colgados del cuello.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "En el laboratorio, Ilse se acerca a PLAY.",
+          "description": "PLAY capturado y llevado a laboratorio. Mantener vestuario humano y auriculares al cuello.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "Ilse Varga",
-              "text": "Ustedes son amigos con CUE, ¿no?"
+              "text": "¿Qué quieren de mí?",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "06-10",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ilse se aproxima a PLAY.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Ustedes son amigos con CUE, ¿no?",
+              "speaker": "ILSE",
+              "status": "literal"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "06-11",
+      "image": null,
+      "alt": "Ilustración pendiente · 06-11",
+      "panels": [
+        {
+          "id": "06-11",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY mira a Ilse, desconfiado.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿Qué tiene que ver CUE con esto?",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "06-12",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ilse intenta manipular su percepción de la amistad.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Verás... tenía pensado mejorarle la vida a CUE, pero parece que tomó otro camino.",
+              "speaker": "ILSE",
+              "status": "literal"
+            }
+          ]
+        },
+        {
+          "id": "06-13",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY no comprende.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿Qué significa eso?",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            },
+            {
+              "kind": "dialogue",
+              "text": "Déjame mostrarte.",
+              "speaker": "ILSE",
+              "status": "literal"
             }
           ]
         }
@@ -201,46 +271,27 @@
       "alt": "El recuerdo",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "06-14",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Ilse le dice a PLAY que quería mejorarle la vida a CUE, pero que él tomó otro camino.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "PLAY",
-              "text": "¿Qué significa eso?"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "Ilse Varga",
-              "text": "Déjame mostrarte."
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Fragmentos de la guitarra, la caja y el compás que compartieron aparecen en viñetas quebradas. En el recuerdo alterado, PLAY queda solo con la guitarra.",
+          "description": "Fragmentos alterados de recuerdos de CUE y PLAY; distinguir distorsión de realidad, no fijar recuerdos falsos específicos sin aprobación.",
           "lines": []
         },
         {
-          "id": "vineta-3",
+          "id": "06-15",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "PLAY mira sus manos. Cierra los puños.",
+          "description": "PLAY reacciona con odio inducido.",
           "lines": [
             {
               "kind": "dialogue",
+              "text": "Voy a terminar con eso.",
               "speaker": "PLAY",
-              "text": "Voy a terminar con eso."
+              "status": "literal"
             }
           ]
         }
@@ -257,40 +308,88 @@
       "alt": "Nombre",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "06-16",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "PLAY permanece inmóvil detrás de un visor oscuro. Los auriculares siguen en su cuello.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Un monitor a su espalda muestra NO SIGNAL. Ilse se refleja en el vidrio al decir el nombre.",
+          "description": "Transformación experimental. Usar diseño NO SIGNAL de visor oscuro, armadura negra y auriculares con rojo al cuello.",
           "lines": [
             {
-              "kind": "dialogue",
-              "speaker": "Ilse Varga",
-              "text": "Serás… NO SIGNAL."
+              "kind": "sfx",
+              "text": "TZZZZ.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "06-17",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Él se coloca lentamente los auriculares. Una frecuencia roja cruza el visor durante un instante.",
+          "description": "Ilse mira al nuevo antagonista; él permanece mudo. Monitor detrás.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Ahora... ¿cómo debería llamarte?",
+              "speaker": "ILSE",
+              "status": "literal"
+            }
+          ]
+        },
+        {
+          "id": "06-18",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Monitor detrás del antagonista revela NO SIGNAL (texto actualizado, pendiente de ratificar).",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "NO SIGNAL.",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "06-19",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Plano frontal del visor negro reflectante. Ilse se refleja en el vidrio.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Serás... NO SIGNAL.",
+              "speaker": "ILSE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "06-20",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "NO SIGNAL se coloca lentamente los auriculares desde el cuello, sin hablar.",
+          "lines": []
+        },
+        {
+          "id": "06-21",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Breve frecuencia roja sobre visor sincronizada con golpe electrónico. No iluminar ojos.",
           "lines": [
             {
               "kind": "sfx",
-              "text": "¡VZZZT!"
+              "text": "VZZT.",
+              "status": "propuesto"
             }
           ]
         }
@@ -307,16 +406,17 @@
       "alt": "Corte",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "06-22",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Negro. El último destello ha desaparecido.",
+          "description": "Negro absoluto. No epílogo ni combate adicional.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Fin de la primera temporada."
+              "text": "FIN DE LA TEMPORADA 1.",
+              "status": "propuesto"
             }
           ]
         }

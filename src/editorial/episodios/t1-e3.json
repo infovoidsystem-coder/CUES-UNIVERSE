@@ -8,6 +8,78 @@
   "cover": null,
   "pages": [
     {
+      "id": "03-01",
+      "image": null,
+      "alt": "Ilustración pendiente · 03-01",
+      "panels": [
+        {
+          "id": "03-01",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO y CUE frente a frente, espacio de entrenamiento original.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Hay tres fases. La primera empieza cuando consigues alterar tu percepción.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "03-02",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO demuestra el control de la frecuencia.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "En la segunda, la conexión con la frecuencia se vuelve mucho más intensa.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "03-03",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE intenta seguir el movimiento.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿Y la tercera?",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "03-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO observa a CUE, sin revelar todo su potencial.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Nadie ha logrado dominarla. Aún no estás preparado para eso.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
       "id": "guion-1",
       "image": {
         "jpeg": "media/imagenes/t1-e3-p1-secuencia.jpg",
@@ -17,53 +89,39 @@
       "alt": "La caída",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "03-05",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "La vibración ámbar alcanza a CUE. Frente a él, varias placas se levantan a distinta altura.",
+          "description": "CUE cae y pierde intensidad.",
           "lines": [
             {
-              "kind": "narration",
-              "text": "Fase 3."
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE tropieza y cae de costado. Las placas más altas se desploman primero.",
-          "lines": [
-            {
-              "kind": "impact",
-              "text": "¡TUM!"
-            },
-            {
-              "kind": "narration",
-              "text": "Fase 2."
-            }
-          ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "ECO recoge sus cables y el último fragmento vuelve al piso.",
-          "lines": [
-            {
-              "kind": "narration",
-              "text": "Fase 1."
+              "kind": "sfx",
+              "text": "THUM.",
+              "status": "propuesto"
             },
             {
               "kind": "dialogue",
+              "text": "¡Ah!",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "03-06",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO interrumpe el ejercicio.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "No es cuestión de fuerza. Es control.",
               "speaker": "ECO",
-              "text": "Por hoy alcanza."
+              "status": "propuesto"
             }
           ]
         }
@@ -80,47 +138,24 @@
       "alt": "La prueba de sonido",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "03-07",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE desenrolla un cable en el lugar de trabajo de FADER. Su jefe escucha una prueba frente a la consola.",
+          "description": "Negocio de sonido. FADER revisa equipos y reprende a CUE.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Pará un segundo. Hay un ruido en ese canal.",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE señala un canal con ruido. FADER baja el nivel y le devuelve el cable.",
-          "lines": [
-            {
-              "kind": "dialogue",
+              "text": "¡Esos equipos tienen que estar listos!",
               "speaker": "FADER",
-              "text": "Revisá el otro extremo. Tenemos que abrir."
-            }
-          ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE se agacha detrás del equipo y encuentra un conector flojo.",
-          "lines": [
+              "status": "propuesto"
+            },
             {
-              "kind": "sfx",
-              "text": "¡CLAC!"
+              "kind": "dialogue",
+              "text": "Ya voy.",
+              "speaker": "CUE",
+              "status": "propuesto"
             }
           ]
         }
@@ -137,102 +172,48 @@
       "alt": "El compás de PLAY",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "03-08",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Al terminar la prueba, PLAY espera con su guitarra al hombro. Lleva los auriculares negros y rojos al cuello.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE golpea dos veces el borde de una caja. PLAY le responde sobre las cuerdas.",
-          "lines": [
-            {
-              "kind": "sfx",
-              "text": "TAC-TAC"
-            },
-            {
-              "kind": "sfx",
-              "text": "TRRÁN"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Contestame estas dos.",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Los dos repiten juntos. Esta vez PLAY deja un silencio antes del último golpe.",
+          "description": "PLAY y CUE conversan entre equipos; guitarra de PLAY si figura en el plano original.",
           "lines": [
             {
               "kind": "dialogue",
+              "text": "¿Otra vez FADER?",
               "speaker": "PLAY",
-              "text": "Ahí. Ese hueco me gusta."
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-4",
-      "image": {
-        "jpeg": "media/imagenes/t1-e3-p4-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "Fuera del trabajo",
-      "panels": [
-        {
-          "id": "vineta-1",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "PLAY apoya la guitarra y abre en su mesa la carcasa de un dispositivo experimental.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE alcanza una herramienta sin que se la pidan.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "PLAY",
-              "text": "¿Todavía te acordás cuál uso?"
+              "status": "propuesto"
             },
             {
               "kind": "dialogue",
+              "text": "Ya lo conoces.",
               "speaker": "CUE",
-              "text": "La otra la rompiste."
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "03-09",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "PLAY se ríe. El sonido queda suspendido un instante mientras CUE mira sus manos.",
-          "lines": []
+          "description": "Conversación de amigos sobre música; contraste batería/guitarra/DJ sin recuperar de golpe memorias borradas.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿De verdad quieres dedicarte a eso?",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            },
+            {
+              "kind": "dialogue",
+              "text": "Cambió mi instrumento, no lo que siento por la música.",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
         }
       ],
       "audio": []
@@ -247,40 +228,55 @@
       "alt": "Los vinilos",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "03-10",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE está con ECO cuando SCRATCH aparece acompañado por PADS. Al ver a ECO, SCRATCH se para en seco.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "PADS le habla de costado. SCRATCH levanta dos vinilos.",
+          "description": "Callejón mojado. CUE y ECO encuentran a SCRATCH y PADS.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "PADS",
-              "text": "Esperá."
+              "text": "ECO.",
+              "speaker": "SCRATCH",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "03-11",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Los discos giran en el aire. Un borde de fuego cruza la cara de ECO justo antes del corte.",
+          "description": "ECO reconoce a SCRATCH; PADS observa con tensión.",
           "lines": [
             {
+              "kind": "dialogue",
+              "text": "Ha pasado mucho tiempo.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "03-12",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "SCRATCH revela sus poderes; auriculares al cuello. CUE, ECO y PADS presentes.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "No para mí.",
+              "speaker": "SCRATCH",
+              "status": "propuesto"
+            },
+            {
               "kind": "sfx",
-              "text": "¡FSSSH!"
+              "text": "FSSSH.",
+              "status": "propuesto"
             }
           ]
         }

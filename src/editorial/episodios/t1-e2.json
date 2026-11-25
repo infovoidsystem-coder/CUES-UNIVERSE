@@ -17,41 +17,34 @@
       "alt": "Dos pulsos",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "02-01",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE cruza un paso bajo una avenida. Detrás del ruido de la ciudad distingue un pulso separado.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "En el otro extremo, un hombre calvo, de barba canosa, gafas oscuras y abrigo largo, lo observa.",
+          "description": "CUE llega al lugar del encuentro original con ECO; reutilizar ambiente del episodio.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "ECO",
-              "text": "¿Cuántos escuchaste?"
+              "text": "¿Quién eres?",
+              "speaker": "CUE",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "02-02",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE se detiene y mira a los dos lados del paso.",
+          "description": "ECO, de pie, más alto, lentes oscuros y barba canosa completa.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Dos. El segundo viene de vos."
+              "text": "Alguien que aprendió a escuchar lo que otros no oyen.",
+              "speaker": "ECO",
+              "status": "propuesto"
             }
           ]
         }
@@ -68,45 +61,151 @@
       "alt": "El conector",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "02-03",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO aparta la manga de su abrigo. De su brazo mecánico sale un cable con un conector jack.",
+          "description": "Primer plano de brazo mecánico; cable sale y termina en ficha plug jack visible.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿Qué es eso?",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "02-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO manifiesta energía ámbar. El cable conecta con el entorno según la escena original.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "La frecuencia correcta puede cambiar lo que percibes.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "02-05",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE observa la alteración de la percepción, sin cambiar su diseño físico.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿Cómo haces eso?",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-06",
+      "image": null,
+      "alt": "Ilustración pendiente · 02-06",
+      "panels": [
+        {
+          "id": "02-06",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO señala los auriculares de CUE.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "La música no es solo lo que escuchas. También es lo que eres capaz de sentir.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "02-07",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE intenta concentrarse; transición visual controlada.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Escucha. No intentes forzarlo.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "02-08",
+      "image": null,
+      "alt": "Ilustración pendiente · 02-08",
+      "panels": [
+        {
+          "id": "02-08",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PLAY llega al refugio, pelo largo negro y chaqueta sin capucha.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¿CUE? ¿Qué está pasando aquí?",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "02-09",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO y PLAY se miran y se saludan con la mano. CUE conserva peinado y ropa.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Soy PLAY.",
+              "speaker": "PLAY",
+              "status": "propuesto"
+            },
+            {
+              "kind": "dialogue",
+              "text": "ECO.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "02-10",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Apagón tras el apretón de manos, si coincide con montaje publicado.",
           "lines": [
             {
               "kind": "sfx",
-              "text": "¡CLIC!"
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "La punta toca el suelo. Un pulso ámbar levanta polvo y sacude una placa de concreto.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE da un paso atrás. ECO retrae el cable.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "¿Cómo hiciste eso?"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "ECO",
-              "text": "Acercate. Escuchalo otra vez."
+              "text": "TZZT.",
+              "status": "propuesto"
             }
           ]
         }
@@ -114,153 +213,25 @@
       "audio": []
     },
     {
-      "id": "guion-3",
-      "image": {
-        "jpeg": "media/imagenes/t1-e2-p3-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "El peso",
+      "id": "02-11",
+      "image": null,
+      "alt": "Ilustración pendiente · 02-11",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "02-11",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO repite el pulso, esta vez sin levantar polvo. CUE apoya ambos pies en la placa.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE trata de seguir el ritmo a la fuerza. La vibración le corre por las piernas y pierde el apoyo.",
-          "lines": [
-            {
-              "kind": "sfx",
-              "text": "¡TRR!"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Lo siento en los talones. Se me va para atrás.",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "ECO le ofrece la mano.",
+          "description": "ECO se prepara para iniciar entrenamiento de CUE; cierre enlaza con E3.",
           "lines": [
             {
               "kind": "dialogue",
+              "text": "Todavía tienes mucho que aprender.",
               "speaker": "ECO",
-              "text": "Aflojá las rodillas. Fijate dónde cae tu peso."
+              "status": "propuesto"
             }
           ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-4",
-      "image": {
-        "jpeg": "media/imagenes/t1-e2-p4-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "El primer ensayo",
-      "panels": [
-        {
-          "id": "vineta-1",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE vuelve a plantarse. El pulso de ECO recorre sus zapatillas y él aguanta el equilibrio.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Una línea turquesa cruza un segundo la junta de la placa y se desvanece.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "ECO inclina la cabeza. CUE mira la marca en el suelo.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "¿Eso fui yo?"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "ECO",
-              "text": "Probemos de nuevo."
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-5",
-      "image": {
-        "jpeg": "media/imagenes/t1-e2-p5-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "La prueba sigue",
-      "panels": [
-        {
-          "id": "vineta-1",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "ECO extiende dos cables. Uno golpea el suelo a la izquierda de CUE y el otro queda tendido detrás.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "¿Los dos a la vez?",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE mueve el pie para esquivar la primera vibración. La segunda le llega antes de que se afirme.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "ECO se quita la mano del mando de su brazo. CUE intenta recuperar el equilibrio mientras la energía ámbar avanza por el suelo.",
-          "lines": []
         }
       ],
       "audio": []

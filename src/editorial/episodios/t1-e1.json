@@ -2,7 +2,7 @@
   "id": "t1-e1",
   "season": 1,
   "number": 1,
-  "title": "AUSTRAL, la capital natal",
+  "title": "El comienzo (AUSTRAL, la capital natal)",
   "synopsis": "En una ciudad que repite la misma promesa, CUE encuentra un ritmo propio.",
   "status": "vista-previa",
   "cover": {
@@ -19,33 +19,46 @@
         "height": 837
       },
       "alt": "La torre de OMNIA se alza sobre Austral bajo la lluvia. CUE corre entre las sombras de sus perseguidores.",
-      "notes": "Presente. CUE es perseguido por OMNIA.",
       "panels": [
         {
-          "id": "tiempo",
-          "x": 4,
-          "y": 4,
-          "width": 30,
-          "height": 8,
+          "id": "01-01",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PRESENTE. Plano original de persecución: CUE corre por Austral. Reutilizar fotograma exacto de apertura.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Presente"
+              "text": "Austral.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "charco",
-          "x": 12,
-          "y": 84,
-          "width": 32,
-          "height": 10,
+          "id": "01-02",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Agentes de OMNIA persiguen a CUE; conservar dirección de carrera y ropa original.",
           "lines": [
             {
-              "kind": "sfx",
-              "text": "¡CHAF!"
+              "kind": "dialogue",
+              "text": "¡Deténgase!",
+              "speaker": "Agente",
+              "status": "propuesto"
             }
           ]
+        },
+        {
+          "id": "01-03",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE continúa huyendo; corte en el mismo punto del episodio audiovisual. No mostrar resolución.",
+          "lines": []
         }
       ],
       "audio": []
@@ -58,18 +71,19 @@
         "height": 699
       },
       "alt": "La torre domina la ciudad a plena luz. Los habitantes de ojos blancos caminan por las calles de Austral.",
-      "notes": "Años antes. La historia presenta Austral y la vida cotidiana de sus habitantes.",
       "panels": [
         {
-          "id": "tiempo",
-          "x": 4,
-          "y": 4,
-          "width": 30,
-          "height": 8,
+          "id": "01-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PASADO. Plano general de ciudad y torre OMNIA.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Años antes"
+              "text": "Años atrás.",
+              "status": "propuesto"
             }
           ]
         }
@@ -86,16 +100,18 @@
       "alt": "CUE mira la torre de OMNIA desde su departamento. Se oye el saludo institucional de la mañana.",
       "panels": [
         {
-          "id": "anuncio-omnia",
-          "x": 4,
-          "y": 71,
-          "width": 60,
-          "height": 16,
+          "id": "01-05",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Interior del departamento de CUE, ventana con torre y logo oficial.",
           "lines": [
             {
               "kind": "broadcast",
-              "speaker": "Ilse Varga",
-              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía"
+              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía.",
+              "speaker": "ILSE (altavoz)",
+              "status": "literal"
             }
           ]
         }
@@ -112,110 +128,60 @@
       "alt": "CUE cierra la puerta de su departamento y cruza un puente peatonal entre los habitantes de Austral.",
       "panels": [
         {
-          "id": "puerta",
-          "x": 12,
-          "y": 21,
-          "width": 22,
-          "height": 7,
-          "lines": [
-            {
-              "kind": "sfx",
-              "text": "¡CLAC!"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-1",
-      "image": {
-        "jpeg": "media/imagenes/t1-e1-p5-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "El cruce",
-      "panels": [
-        {
-          "id": "vineta-1",
+          "id": "01-06",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE baja del puente y pisa la vereda junto al resto de los peatones.",
+          "description": "CUE se prepara para salir; ojos blancos mate, auriculares al cuello.",
+          "lines": []
+        },
+        {
+          "id": "01-07",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ciudadanos transitan con gestos rutinarios; luz diurna, sin hilos visibles.",
           "lines": [
             {
-              "kind": "sfx",
-              "text": "¡TAC!"
+              "kind": "narration",
+              "text": "Cada día comienza de la misma manera.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-2",
+          "id": "01-08",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "El semáforo cambia. Decenas de personas de ojos blancos pisan la senda en el mismo instante.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE se retrasa un paso para esquivar un charco. Su bota cae entre dos pulsos de la multitud.",
-          "lines": []
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-2",
-      "image": {
-        "jpeg": "media/imagenes/t1-e1-p6-secuencia.jpg",
-        "width": 1024,
-        "height": 1536
-      },
-      "alt": "Frecuencia de fondo",
-      "panels": [
-        {
-          "id": "vineta-1",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE pasa ante una pantalla institucional. En el vidrio se superponen su reflejo y la torre de OMNIA.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Sus dedos marcan un ritmo en la correa del arnés mientras sigue caminando.",
+          "description": "CUE camina entre la multitud. El entorno parece perfectamente ordenado.",
           "lines": [
-            {
-              "kind": "sfx",
-              "text": "TAC… TAC-TAC"
-            },
             {
               "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Un paso, dos… ahí entra.",
-              "estadoEditorial": "pendiente de aprobación"
+              "text": "¿Siempre fue así?",
+              "speaker": "CUE (pensamiento)",
+              "status": "propuesto"
             }
           ]
-        },
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "01-09",
+      "image": null,
+      "alt": "Ilustración pendiente · 01-09",
+      "panels": [
         {
-          "id": "vineta-3",
+          "id": "01-09",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Al llegar a la esquina retoma el paso de la multitud, con los auriculares turquesa todavía al cuello.",
+          "description": "CUE pasa junto a equipos de sonido o escaparate musical; detenerse en una reacción pequeña, no recuperar memorias completas.",
           "lines": []
         }
       ],
@@ -231,36 +197,19 @@
       "alt": "Una ciudad en horario",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "01-10",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Las persianas de los comercios bajan al terminar la jornada. La gente vuelve a cruzar el puente.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "La tarde se apaga detrás de las agujas de la torre.",
+          "description": "Noche: plano de ciudadanos con hilos verticales blancos, torre al fondo.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Al caer la noche."
+              "text": "En Austral, hasta el silencio tiene una frecuencia.",
+              "status": "propuesto"
             }
           ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "En la calle oscura, finos hilos blancos suben verticalmente desde las cabezas de los peatones.",
-          "lines": []
         }
       ],
       "audio": []
@@ -275,41 +224,12 @@
       "alt": "El último compás",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "01-11",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE llega al departamento. En el vidrio oscuro se refleja su ojo blanco.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Sobre la mesa, sus dedos vuelven a buscar aquel ritmo.",
-          "lines": [
-            {
-              "kind": "sfx",
-              "text": "TAC… TAC-TAC"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "¿Cómo era?",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Visto desde fuera, el departamento de CUE se pierde entre cientos de ventanas iguales. El hilo blanco sigue intacto.",
+          "description": "Primer plano de CUE en su rutina; ojos blancos, sin ruptura de hilo.",
           "lines": []
         }
       ],

@@ -2,7 +2,7 @@
   "id": "t1-e5",
   "season": 1,
   "number": 5,
-  "title": "Dos esferas",
+  "title": "ECO y CUE contra CROSS FADER",
   "synopsis": "ECO y CUE pelean juntos contra CROSS FADER y sincronizan la energía terrestre.",
   "status": "vista-previa",
   "cover": null,
@@ -17,47 +17,79 @@
       "alt": "Del otro lado",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "05-01",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "El brazo de CROSS FADER golpea el concreto. ECO tira de un anclaje y evita el impacto; CUE rueda por el otro lado.",
+          "description": "Continuar exactamente último choque de E4. CROSS FADER frente a ambos héroes, no entre ellos como aliado.",
           "lines": [
             {
-              "kind": "impact",
-              "text": "¡BAM!"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "ECO",
-              "text": "¡CUE, rodá!",
-              "estadoEditorial": "pendiente de aprobación"
+              "kind": "sfx",
+              "text": "KRAK.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-2",
+          "id": "05-02",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Desde una azotea, PADS y SCRATCH siguen el combate. PADS se asoma cuando una placa cae cerca de ECO.",
-          "lines": []
-        },
-        {
-          "id": "vineta-3",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CROSS FADER vuelve hacia ECO. CUE lo obliga a girar tirando una placa delante de sus pies.",
+          "description": "ECO bloquea ataque con sus brazos mecánicos y cables plug.",
           "lines": [
             {
               "kind": "dialogue",
+              "text": "¡CUE, a un lado!",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "05-03",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE ayuda a ECO a esquivar otro golpe, energía turquesa terrestre.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "¡Te cubro!",
               "speaker": "CUE",
-              "text": "¡Acá, FADER!",
-              "estadoEditorial": "pendiente de aprobación"
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-04",
+      "image": null,
+      "alt": "Ilustración pendiente · 05-04",
+      "panels": [
+        {
+          "id": "05-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Azotea: PADS y SCRATCH observan la pelea; no participan en ataque final.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Están peleando juntos.",
+              "speaker": "PADS",
+              "status": "propuesto"
+            },
+            {
+              "kind": "dialogue",
+              "text": "…",
+              "speaker": "SCRATCH",
+              "status": "propuesto"
             }
           ]
         }
@@ -74,46 +106,33 @@
       "alt": "Fuera de tiempo",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "05-05",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE intenta levantar su esfera. El golpe del prototipo le corta la concentración y la energía se dispersa.",
-          "lines": []
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Los cables de ECO sujetan por un instante el brazo de CROSS FADER; el tirón arrastra también a ECO.",
+          "description": "CROSS FADER lleva la máscara de calavera agrietada y el módulo rojo en el pecho.",
           "lines": [
             {
-              "kind": "dialogue",
-              "speaker": "ECO",
-              "text": "Le sujeté el brazo. ¿Podés levantarte?",
-              "estadoEditorial": "pendiente de aprobación"
+              "kind": "sfx",
+              "text": "THUD.",
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "05-06",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO ve que CUE sigue de pie. Marca el compás con un conector contra el suelo.",
+          "description": "ECO y CUE se reagrupan, ambos frente al villano.",
           "lines": [
             {
-              "kind": "sfx",
-              "text": "TAC… TAC…"
-            },
-            {
               "kind": "dialogue",
+              "text": "Recuerda lo que practicamos.",
               "speaker": "ECO",
-              "text": "Escuchá."
+              "status": "propuesto"
             }
           ]
         }
@@ -130,54 +149,81 @@
       "alt": "Ámbar y turquesa",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "05-07",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO levanta piedras del suelo y forma su esfera ámbar. A su lado, CUE reúne la tierra en una esfera turquesa.",
+          "description": "ECO concentra esfera ámbar con tierra del suelo.",
           "lines": [
             {
               "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Te escucho. Sostené ese pulso.",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CROSS FADER avanza. Las dos esferas oscilan, se acercan y conservan el mismo ritmo.",
-          "lines": [
-            {
-              "kind": "dialogue",
+              "text": "Encuentra el pulso.",
               "speaker": "ECO",
-              "text": "Cuando entre tu golpe.",
-              "estadoEditorial": "pendiente de aprobación"
-            },
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "Ahora.",
-              "estadoEditorial": "pendiente de aprobación"
+              "status": "propuesto"
             }
           ]
         },
         {
-          "id": "vineta-3",
+          "id": "05-08",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO y CUE sueltan al mismo tiempo. La esfera de tierra, con núcleo turquesa y borde ámbar, golpea a CROSS FADER.",
+          "description": "CUE concentra esfera turquesa, todavía inestable.",
           "lines": [
             {
-              "kind": "impact",
-              "text": "¡KRAAAK!"
+              "kind": "dialogue",
+              "text": "La tengo… pero no puedo mantenerla.",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "05-09",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "ECO mantiene su propia esfera y guía la sincronización.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Sigue mi frecuencia.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "05-10",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ambas esferas estables, colores diferenciados, fragmentos de tierra suspendidos.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Ahora.",
+              "speaker": "CUE",
+              "status": "propuesto"
+            }
+          ]
+        },
+        {
+          "id": "05-11",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Ataque combinado terrestre de ECO y CUE, ámbar y turquesa fusionados, dirigido exclusivamente a CROSS FADER.",
+          "lines": [
+            {
+              "kind": "sfx",
+              "text": "KRAAAAM.",
+              "status": "propuesto"
             }
           ]
         }
@@ -194,41 +240,56 @@
       "alt": "Después del golpe",
       "panels": [
         {
-          "id": "vineta-1",
+          "id": "05-12",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "El polvo cae. CROSS FADER intenta incorporarse; sus dedos resbalan sobre el concreto.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "speaker": "CUE",
-              "text": "¿Fader?",
-              "estadoEditorial": "pendiente de aprobación"
-            }
-          ]
-        },
-        {
-          "id": "vineta-2",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE espera junto a ECO. El cuerpo del prototipo queda inmóvil.",
+          "description": "CROSS FADER cae derrotado; muerte confirmada sin gore innecesario.",
           "lines": []
         },
         {
-          "id": "vineta-3",
+          "id": "05-13",
           "x": 5,
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "En el borde de la viñeta, entre los restos del equipo, parpadea una señal que se apaga enseguida.",
+          "description": "ECO y CUE permanecen juntos; ambos agotados. PADS y SCRATCH observan desde techo.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "text": "Lo conseguimos.",
+              "speaker": "CUE",
+              "status": "propuesto"
+            },
+            {
+              "kind": "dialogue",
+              "text": "Juntos.",
+              "speaker": "ECO",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "05-14",
+      "image": null,
+      "alt": "Ilustración pendiente · 05-14",
+      "panels": [
+        {
+          "id": "05-14",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Breve señal ambigua en un monitor OMNIA; sin explicar absorción ni anunciar persecución.",
           "lines": [
             {
               "kind": "sfx",
-              "text": "TIC"
+              "text": "BIP.",
+              "status": "propuesto"
             }
           ]
         }
