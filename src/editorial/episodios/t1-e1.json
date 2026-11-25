@@ -68,11 +68,11 @@
     {
       "id": "departamento",
       "image": {
-        "height": 503,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-05.jpg"
+        "height": 879,
+        "width": 1790,
+        "jpeg": "media/escenas/nochevisita0.jpg"
       },
-      "alt": "Escena 01-05",
+      "alt": "De noche, CUE mira la torre de OMNIA desde su departamento.",
       "panels": [
         {
           "id": "01-05",
@@ -80,14 +80,8 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Interior del departamento de CUE, ventana con torre y logo oficial.",
+          "description": "De noche, CUE mira la torre de OMNIA desde su departamento.",
           "lines": [
-            {
-              "kind": "broadcast",
-              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía.",
-              "speaker": "ILSE (altavoz)",
-              "status": "literal"
-            },
             {
               "kind": "sfx",
               "text": "TOC, TOC",
@@ -101,11 +95,11 @@
     {
       "id": "eco-en-la-puerta",
       "image": {
-        "jpeg": "media/escenas/eco-puerta.jpg",
+        "jpeg": "media/escenas/nochepuertafinal.jpg",
         "width": 1448,
         "height": 1086
       },
-      "alt": "CUE abre la puerta de su departamento. Es ECO.",
+      "alt": "ECO visita a CUE de noche y le advierte que lo están siguiendo.",
       "panels": [
         {
           "id": "01-12",
@@ -113,7 +107,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE abre la puerta de su departamento. Es ECO.",
+          "description": "ECO visita a CUE de noche y le advierte que lo están siguiendo.",
           "lines": [
             {
               "kind": "dialogue",
@@ -129,11 +123,11 @@
     {
       "id": "01-02",
       "image": {
-        "jpeg": "media/escenas/rescate-0.jpg",
-        "width": 1536,
-        "height": 506
+        "jpeg": "media/escenas/soldadosfuga.jpg",
+        "width": 1448,
+        "height": 1086
       },
-      "alt": "CUE y ECO escapan juntos rumbo al bosque.",
+      "alt": "Tres soldados de OMNIA corren tras CUE y ECO mientras los dos escapan hacia el bosque.",
       "panels": [
         {
           "id": "01-02",
@@ -141,7 +135,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE y ECO escapan juntos rumbo al bosque.",
+          "description": "Tres soldados de OMNIA corren tras CUE y ECO mientras los dos escapan hacia el bosque.",
           "lines": [
             {
               "kind": "dialogue",
