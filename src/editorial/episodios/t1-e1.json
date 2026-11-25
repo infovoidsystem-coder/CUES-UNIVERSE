@@ -3,7 +3,7 @@
   "season": 1,
   "number": 1,
   "title": "El comienzo (AUSTRAL, la capital natal)",
-  "synopsis": "En una ciudad que repite la misma promesa, CUE encuentra un ritmo propio.",
+  "synopsis": "OMNIA persigue a CUE. ECO lo rescata y lo lleva a su refugio en el bosque, antes de que la historia vuelva al pasado.",
   "status": "vista-previa",
   "cover": {
     "jpeg": "media/imagenes/t1-e1-portada-v1.jpg",
@@ -14,11 +14,11 @@
     {
       "id": "persecucion",
       "image": {
-        "jpeg": "media/escenas/apertura-1.jpg",
-        "width": 1024,
-        "height": 354
+        "jpeg": "media/escenas/apertura-3.jpg",
+        "width": 609,
+        "height": 469
       },
-      "alt": "La torre de OMNIA sobre Austral bajo la lluvia.",
+      "alt": "OMNIA persigue a CUE por las calles de Austral.",
       "panels": [
         {
           "id": "01-01",
@@ -26,11 +26,11 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "PRESENTE. Plano original de persecución: CUE corre por Austral. Reutilizar fotograma exacto de apertura.",
+          "description": "OMNIA persigue a CUE por las calles de Austral.",
           "lines": [
             {
               "kind": "narration",
-              "text": "Austral.",
+              "text": "Austral. OMNIA persigue a CUE.",
               "status": "propuesto"
             }
           ]
@@ -41,11 +41,11 @@
     {
       "id": "01-02",
       "image": {
-        "jpeg": "media/escenas/apertura-2.jpg",
-        "width": 423,
-        "height": 446
+        "jpeg": "media/escenas/rescate-0.jpg",
+        "width": 1536,
+        "height": 506
       },
-      "alt": "Los agentes corren por la calle tras CUE.",
+      "alt": "ECO rescata a CUE de los agentes de OMNIA.",
       "panels": [
         {
           "id": "01-02",
@@ -53,12 +53,12 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "Agentes de OMNIA persiguen a CUE; conservar dirección de carrera y ropa original.",
+          "description": "ECO rescata a CUE de los agentes de OMNIA.",
           "lines": [
             {
               "kind": "dialogue",
-              "text": "¡Deténgase!",
-              "speaker": "Agente",
+              "speaker": "ECO",
+              "text": "¡Por acá!",
               "status": "propuesto"
             }
           ]
@@ -69,11 +69,11 @@
     {
       "id": "01-03",
       "image": {
-        "jpeg": "media/escenas/apertura-3.jpg",
-        "width": 609,
-        "height": 469
+        "jpeg": "media/escenas/rescate-1.jpg",
+        "width": 1536,
+        "height": 506
       },
-      "alt": "CUE sigue corriendo bajo la lluvia.",
+      "alt": "ECO lleva a CUE a su refugio en el bosque.",
       "panels": [
         {
           "id": "01-03",
@@ -81,8 +81,14 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "CUE continúa huyendo; corte en el mismo punto del episodio audiovisual. No mostrar resolución.",
-          "lines": []
+          "description": "ECO lleva a CUE a su refugio en el bosque.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "El refugio de ECO, en el bosque.",
+              "status": "propuesto"
+            }
+          ]
         }
       ],
       "audio": []
