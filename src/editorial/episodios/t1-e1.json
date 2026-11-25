@@ -3,7 +3,7 @@
   "season": 1,
   "number": 1,
   "title": "El comienzo (AUSTRAL, la capital natal)",
-  "synopsis": "Años atrás, OMNIA persigue a CUE por Austral. ECO lo rescata y lo lleva a su refugio en el bosque.",
+  "synopsis": "OMNIA persigue a CUE. Años atrás, ECO aparece en la puerta de su departamento para advertirle que lo están siguiendo. Los dos escapan al refugio de ECO en el bosque.",
   "status": "vista-previa",
   "cover": {
     "jpeg": "media/imagenes/t1-e1-portada-v1.jpg",
@@ -11,33 +11,6 @@
     "height": 350
   },
   "pages": [
-    {
-      "id": "pasado",
-      "image": {
-        "height": 363,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-04.jpg"
-      },
-      "alt": "Vista de Austral años atrás.",
-      "panels": [
-        {
-          "id": "01-04",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "PASADO. Plano general de ciudad y torre OMNIA.",
-          "lines": [
-            {
-              "kind": "narration",
-              "text": "AÑOS ATRÁS",
-              "status": "propuesto"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
     {
       "id": "persecucion",
       "image": {
@@ -66,13 +39,101 @@
       "audio": []
     },
     {
+      "id": "pasado",
+      "image": {
+        "height": 363,
+        "width": 1024,
+        "jpeg": "media/vinetas/01-04.jpg"
+      },
+      "alt": "Vista de Austral años atrás.",
+      "panels": [
+        {
+          "id": "01-04",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "PASADO. Plano general de ciudad y torre OMNIA.",
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "AÑOS ATRÁS",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "departamento",
+      "image": {
+        "height": 503,
+        "width": 1024,
+        "jpeg": "media/vinetas/01-05.jpg"
+      },
+      "alt": "Escena 01-05",
+      "panels": [
+        {
+          "id": "01-05",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "Interior del departamento de CUE, ventana con torre y logo oficial.",
+          "lines": [
+            {
+              "kind": "broadcast",
+              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía.",
+              "speaker": "ILSE (altavoz)",
+              "status": "literal"
+            },
+            {
+              "kind": "sfx",
+              "text": "TOC, TOC",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
+      "id": "eco-en-la-puerta",
+      "image": {
+        "jpeg": "media/escenas/eco-puerta.jpg",
+        "width": 1448,
+        "height": 1086
+      },
+      "alt": "CUE abre la puerta de su departamento. Es ECO.",
+      "panels": [
+        {
+          "id": "01-12",
+          "x": 5,
+          "y": 5,
+          "width": 90,
+          "height": 15,
+          "description": "CUE abre la puerta de su departamento. Es ECO.",
+          "lines": [
+            {
+              "kind": "dialogue",
+              "speaker": "ECO",
+              "text": "Te están siguiendo.",
+              "status": "propuesto"
+            }
+          ]
+        }
+      ],
+      "audio": []
+    },
+    {
       "id": "01-02",
       "image": {
         "jpeg": "media/escenas/rescate-0.jpg",
         "width": 1536,
         "height": 506
       },
-      "alt": "ECO rescata a CUE de los agentes de OMNIA.",
+      "alt": "CUE y ECO escapan juntos rumbo al bosque.",
       "panels": [
         {
           "id": "01-02",
@@ -80,7 +141,7 @@
           "y": 5,
           "width": 90,
           "height": 15,
-          "description": "ECO rescata a CUE de los agentes de OMNIA.",
+          "description": "CUE y ECO escapan juntos rumbo al bosque.",
           "lines": [
             {
               "kind": "dialogue",
@@ -116,179 +177,6 @@
               "status": "propuesto"
             }
           ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "departamento",
-      "image": {
-        "height": 503,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-05.jpg"
-      },
-      "alt": "Escena 01-05",
-      "panels": [
-        {
-          "id": "01-05",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Interior del departamento de CUE, ventana con torre y logo oficial.",
-          "lines": [
-            {
-              "kind": "broadcast",
-              "text": "Buenos días, ciudadanos de Austral. OMNIA les da la bienvenida a un nuevo día de armonía.",
-              "speaker": "ILSE (altavoz)",
-              "status": "literal"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "puente",
-      "image": {
-        "height": 466,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-06.jpg"
-      },
-      "alt": "Escena 01-06",
-      "panels": [
-        {
-          "id": "01-06",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE se prepara para salir; ojos blancos mate, auriculares al cuello.",
-          "lines": []
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "01-07",
-      "image": {
-        "height": 517,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-07.jpg"
-      },
-      "alt": "Escena 01-07",
-      "panels": [
-        {
-          "id": "01-07",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Ciudadanos transitan con gestos rutinarios; luz diurna, sin hilos visibles.",
-          "lines": [
-            {
-              "kind": "narration",
-              "text": "Cada día comienza de la misma manera.",
-              "status": "propuesto"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "01-08",
-      "image": {
-        "height": 541,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-08.jpg"
-      },
-      "alt": "Escena 01-08",
-      "panels": [
-        {
-          "id": "01-08",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE camina entre la multitud. El entorno parece perfectamente ordenado.",
-          "lines": [
-            {
-              "kind": "dialogue",
-              "text": "¿Siempre fue así?",
-              "speaker": "CUE (pensamiento)",
-              "status": "propuesto"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "01-09",
-      "image": {
-        "jpeg": "media/escenas/01-09.jpg",
-        "width": 512,
-        "height": 512
-      },
-      "alt": "Escena 01-09",
-      "panels": [
-        {
-          "id": "01-09",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "CUE pasa junto a equipos de sonido o escaparate musical; detenerse en una reacción pequeña, no recuperar memorias completas.",
-          "lines": []
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-3",
-      "image": {
-        "height": 587,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-10.jpg"
-      },
-      "alt": "Escena 01-10",
-      "panels": [
-        {
-          "id": "01-10",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Noche: plano de ciudadanos con hilos verticales blancos, torre al fondo.",
-          "lines": [
-            {
-              "kind": "narration",
-              "text": "En Austral, hasta el silencio tiene una frecuencia.",
-              "status": "propuesto"
-            }
-          ]
-        }
-      ],
-      "audio": []
-    },
-    {
-      "id": "guion-4",
-      "image": {
-        "height": 501,
-        "width": 1024,
-        "jpeg": "media/vinetas/01-11.jpg"
-      },
-      "alt": "Escena 01-11",
-      "panels": [
-        {
-          "id": "01-11",
-          "x": 5,
-          "y": 5,
-          "width": 90,
-          "height": 15,
-          "description": "Primer plano de CUE en su rutina; ojos blancos, sin ruptura de hilo.",
-          "lines": []
         }
       ],
       "audio": []
